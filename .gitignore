@@ -1,0 +1,118 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/
+.idea/
+.vs/
+
+# VS Code settings
+*.code-workspace
+
+
+# ==============================
+# Logs
+# ==============================
+
+logs/
+logger_save/
+
+*.log
+
+
+# ==============================
+# Experiment results
+# ==============================
+
+result/
+figure/
+
+# reward plots
+plt_data/
+
+
+# ==============================
+# Model checkpoints
+# ==============================
+
+model_save/
+ppo_model_save/
+marl_models/
+
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+
+# ==============================
+# Dataset
+# ==============================
+
+data/
+
+# traffic matrix
+TMgen-master.zip
+TMgen/
+
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.bak
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+
+# ==============================
+# OS
+# ==============================
+
+desktop.ini
+
+
+# ==============================
+# Large files
+# ==============================
+
+*.zip
+*.tar
+*.gz
+
+
+# ==============================
+# Keep documentation
+# ==============================
+
+!docs/
+!gpt_deliverable/

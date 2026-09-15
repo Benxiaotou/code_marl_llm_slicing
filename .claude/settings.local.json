@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Force | Select-Object Mode, Name; Write-Host \"--- 顶层子目录 ---\"; Get-ChildItem -Directory | ForEach-Object { $count = \\(Get-ChildItem $_.FullName -Recurse -File -ErrorAction SilentlyContinue | Measure-Object\\).Count; \"{0}  \\(递归文件数: {1}\\)\" -f $_.Name, $count })"
+    ]
+  }
+}
