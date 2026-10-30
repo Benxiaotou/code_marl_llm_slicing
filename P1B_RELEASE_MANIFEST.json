@@ -1,0 +1,25 @@
+{
+  "package": "P1B_MAPPO_Cooperative_Experience",
+  "version": "1.0.0",
+  "type": "additive_patch_no_original_files_modified",
+  "requirements": [
+    "existing_p1a",
+    "existing_p0_runner",
+    "original_main_geant",
+    "frozen_mappo_checkpoint"
+  ],
+  "files": {
+    "P1B_README.md": "dda96d4bd2d93cc93484f37ec721fc857276c5bcb9a7da30aa1f48b3014659e6",
+    "p1b_generate.py": "cf13a58bdd7e9456c565edd3702c0e0165fc96a03f8f39471a832c0c703b1518",
+    "p1b_collect.py": "6a252d1e073e143a794f489b11aad60659ae48ec5c1f4a3dbacb2c161415d08c",
+    "p1b_select.py": "b9fcde1df0681e0060910ef8504a3d1120ba8009561e1e017edad2a06ad8b846",
+    "p1b_audit.py": "7bde066398baadd4f9a3c55d47807ba2f6b5a164c88548477fb9656a5513f199",
+    "p1b/__init__.py": "0eabdcaa1aad6adca540cb02e9e2cae67e4c38e62bf4d83f9a9f700dba9b1f8c",
+    "p1b/core.py": "c13b448f30ebd64ac92c990d001c8080a93546278cfaa1b7c51459d4b0485e48",
+    "p1b/teacher.py": "d747ea7e4c47cfe8d13f93bf17caaa4fb672b5c035cbf703baa5be4c0ca37acc",
+    "p1b/select.py": "c8570bfd0d5c5163efc623846290c4d4dba7a80cd8968a20e72888bf47b495bf",
+    "tests/test_p1b.py": "7c19ac0d37ce370fe6bc60f76b1fa4f208a628aaa7626dfa5bf8471b7f2398b2",
+    "tests/test_p1b_generation.py": "541cd64f587f33223ee2067baed488c39d7bfafc837f5caa4a87d1070cf86679"
+  },
+  "test_scope": "43 unit/synthetic regressions with P1A and P1A+; no intranet/checkpoint test"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "P1-D IR-aware Qwen-ICL matched 200 scenes",
+  "patch_version": "p1d_ir_aware_v1",
+  "requires": "Existing P1-C P1-B P1-A project; frozen MAPPO P1-B selected library",
+  "source_files": {
+    "p1c_runner.py": "31d52780621a71b23b5a06cbfc772db2ded7b2b62b3bbe2cd61a45224562e3ef",
+    "p1c_compare.py": "87c1f88e2812c4d0f31bf11afa180139254d0b7d38eb1b08b069d16ed8d11b80",
+    "p1c/policy.py": "36ffabaf2e930853fde9ef3af13fcd3313a57edc875339ffdba0d9ed4346a2a6",
+    "p1d/__init__.py": "99bf3b16d8cb6de235e645f79b82abeaf003ed649648bfa4c1a1700e41ddb0e9",
+    "p1d/ir.py": "d155be8915b6ca2cc5afcc448c5dbe02c669af930f3521f1fef0834ee09c338a",
+    "p1d/policy.py": "0fb592c641d07f01ce8a0bc8dab70aeccbf2cec457b110f6379df29167266b0c",
+    "p1d_build_ir.py": "08e99b8d0bc71c9ba10b5296f6efe7e9bd5f041880cb111fc349aaac36c3bf6a",
+    "p1d_report.py": "bcf65dc77d92198ea4466f3fdf285abb77be29870375812e0bd22a12802fabd8",
+    "tests/test_p1d.py": "957a86a4a53143caa716d4ca480038d77aae3eaa644082291468fff025ab530a",
+    "P1D_README.md": "c261acedfcaeefaa063b5a96a768219e35ce148c53d43ed7c01608c47432b5a0"
+  },
+  "scope": "Training-only role-own historical IR feedback, no network or GEANT changes",
+  "tests": "62 offline/regression unittest passed; 200-record structural compare validated",
+  "real_ir_icl_results": "NOT YET RUN: requires user local dataset + private API"
+}

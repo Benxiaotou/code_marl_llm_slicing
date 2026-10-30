@@ -1,0 +1,24 @@
+{
+  "schema": "p1e_ablation_release_manifest_v1",
+  "release_date": "2026-10-29",
+  "base_version_required": "P1-D IR-aware patch",
+  "new_methods": [
+    "ir_prompt_only",
+    "ir_data_only"
+  ],
+  "models_not_finetuned": true,
+  "guard_used": false,
+  "original_environment_unchanged": true,
+  "historical_role_data_only": true,
+  "validation_split_only_initial": true,
+  "tests": "10 new and 44 existing unittest cases passed in local stub environment",
+  "files": {
+    "p1c_runner.py": "607de88074b99f440b63c9c5901f6af68ac9cb3a9ca2e9460735afd6a1adc884",
+    "p1c_compare.py": "27921106c6b25c9b17a5e75f8353919e591e2495b771178a9b97555db2f986fe",
+    "p1c/policy.py": "6d53757bda3e6614558270823d929da8b68735a6bc92d8b1f4be3d5484efa264",
+    "p1d/policy.py": "42bc936f8bb39705f8fba52e6a4a0ff884d0ba27626257d2960c384ba154f4c4",
+    "p1e_ablation_report.py": "4538be4b214d52c2ebacd90a5e35f347052036a80d33d3f6e036cfb25a7b7c4c",
+    "tests/test_p1e.py": "875d131ddf2840c877622b8ed7e61d5a4f7a5312d4b00608ce8923f2dbbcda54",
+    "P1E_README.md": "9e3a09e949bbd8a9010217d9bd1ebe5240d922562cd9aff560fa1eff7f2a5112"
+  }
+}

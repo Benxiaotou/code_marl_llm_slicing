@@ -1,0 +1,17 @@
+{
+  "name": "P1C_MAPPO_Local_Experience_ICL_Patch",
+  "release": "v1.0",
+  "environment": "P1A/P1B existing GEANT project",
+  "contains_only_new_files": true,
+  "real_GEANT_LLM_evaluation_performed_here": false,
+  "offline_regression_tests_passed": 53,
+  "files": {
+    "p1c_runner.py": "0db13255b20eca3ebef909c1cc5b7babd1435ff96ab76b78744e589be07a7a2b",
+    "p1c_compare.py": "2382689a2532c625157fbe891b8e69609927320a8f0be4c44f491874e875a0d0",
+    "p1c/__init__.py": "977cfed28c47808324bee59eb859fccd49660ea76815274f5cb0afa0ac7275d0",
+    "p1c/retrieval.py": "32d4306ca1d1227853a9e0dbf48b3a7f93c405240f8679b6e7e453bf73065fce",
+    "p1c/policy.py": "fa2e81fe86ef72e66d1854f044f9cd9ca211812cbd3a556b190ef83fe98ccd65",
+    "tests/test_p1c.py": "bcfd4566c24c0156bf6c3dd32bc8164fc8fa7e0e8d5d513ec86dae5f8d0aad30",
+    "P1C_README.md": "9f67da6e5a32558c80aa7b54e40514d0e3188f993f1c7cb17eebb06dc52896f7"
+  }
+}

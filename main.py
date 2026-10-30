@@ -110,11 +110,12 @@ class CustomMultiAgentEnv(RawMultiAgentEnv):
         g_remove_nodes_set = remove_nodes_set[num_re_k:]  # 后4个用于g_net
 
         self.K_num_existing_v_net = 3  # 论文中的 K
-        self.sample_cnt = 600  # 样本数量
+        self.sample_cnt = int(getattr(config, "p0_sample_cnt", 600))  # 样本数量
 
         self.sample_dict_save_file = self.data_dir + self.topology_file + '/' \
                                      + self.topology_file + '_' + str(self.K_num_existing_v_net) \
                                      + '_' + str(re_n_set_num_nodes) + '_' + str(self.sample_cnt) + '_sample_save.pkl'
+        self.sample_dict_save_file = getattr(config, "p0_sample_file", None) or self.sample_dict_save_file
         # 拓扑名 + k_net个数 + 移除的节点数 + 样本数量 + '_sample_save.pkl'
         if os.path.exists(self.sample_dict_save_file):
             with open(self.sample_dict_save_file, 'rb') as pkl:

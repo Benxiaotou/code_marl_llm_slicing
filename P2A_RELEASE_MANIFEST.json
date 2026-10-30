@@ -1,0 +1,31 @@
+{
+  "schema": "p2a_release_manifest_v1",
+  "method": "ir_rerank",
+  "description": "Historical self-only IR-risk-aware local example reranking, frozen Qwen",
+  "base_requirement": "P1-A through P1-E installed",
+  "test_status": "65 offline and regression tests passed; no real Qwen or GEANT run here",
+  "overwrites": [
+    "p1c_runner.py",
+    "p1c/policy.py"
+  ],
+  "adds": [
+    "p2a/__init__.py",
+    "p2a/rerank.py",
+    "p2a/policy.py",
+    "p2a_preview.py",
+    "p2a_compare.py",
+    "tests/test_p2a.py",
+    "P2A_README.md"
+  ],
+  "sha256": {
+    "p1c_runner.py": "f4c73e50564305b6129203fa0ee668eb1e4ccfd5ebecb15293533d290e5585ba",
+    "p1c/policy.py": "53d9c3ba324be0b8b04e371d15272a5295fda2100f32fa18cdc85108b916cc40",
+    "p2a/__init__.py": "f3ae6bba48a88a0c28b70f945be25afc29998475a0ce91782799b7c32c9d7449",
+    "p2a/rerank.py": "018b6416f4df0c8e5966cf2b8b569606f4685309eb95f8919925a523fda20dc3",
+    "p2a/policy.py": "baab75790392c543c718d766fdac2b6587e9b02de9c48c06f4263229bbf096fe",
+    "p2a_preview.py": "75b60a5951ef75e392da627eb118b229d08fc1c68d24d47445e2bba494f89b3f",
+    "p2a_compare.py": "8853573fb2c50fe3c2aba41d1f0aa6531f4ef11af206fa9c86b38d3a42bab5c2",
+    "tests/test_p2a.py": "d580beba747255a7bef38e7ab78c421ff206d2b691706795f023d72a7195a06a",
+    "P2A_README.md": "64f5c8f72ab202e22fa42f95be0afdfec64ddca36d7f337c9bb6775b27ad834e"
+  }
+}

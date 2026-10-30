@@ -1,0 +1,13 @@
+{
+  "release": "P1-A-plus-semantic-v1",
+  "basis": "Existing P1-A Qwen decentralized zero-shot runner, original GEANT main.py",
+  "model_finetuned": false,
+  "uses_other_current_agent_state": false,
+  "uses_guard_or_solver": false,
+  "modifies_existing_files": false,
+  "new_unit_tests": 18,
+  "original_p1a_regression_tests": 14,
+  "real_intranet_api_executed_here": false,
+  "recommended_dev_scene_ids": "512..591 inclusive (80 scenes)",
+  "final_heldout_evaluation_required": true
+}
