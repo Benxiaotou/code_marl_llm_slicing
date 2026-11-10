@@ -1,3 +1,4 @@
+from pathlib import Path
 import torch
 
 class NetworkConfig(object):
@@ -81,7 +82,7 @@ class Config(NetworkConfig):
     # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     device = "cpu"
 
-    root = "C:\\Users\\Lenovo\\Desktop\\论文_研究\\pxl_4\\code\\code_marl_v0"
+    root = str(Path(__file__).resolve().parents[1])
     result_root = root + '/result'
     data_root = root + '/data'
 

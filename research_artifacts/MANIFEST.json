@@ -1,0 +1,134 @@
+{
+  "snapshot_date": "2026-11-10",
+  "scope": "Frozen mainline summaries/protocols only; pending P3 autonomous results excluded",
+  "files": [
+    {
+      "original_relative_path": "p2m_paper/fresh_20261105T025939_435887Z/summary.json",
+      "public_path": "research_artifacts/paper_fresh/summary.json",
+      "original_sha256": "aca2c278114b32718d20db36ef0992ea57e501cb59f3b795a2b886510edd6203",
+      "public_sha256": "aca2c278114b32718d20db36ef0992ea57e501cb59f3b795a2b886510edd6203",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2m_paper/cached_20261105T025855_555782Z/summary.json",
+      "public_path": "research_artifacts/paper_existing/summary.json",
+      "original_sha256": "d873a2a9d95c1a6984ca56cb9bc77fd6e895365c6b808784e303078ceccaf018",
+      "public_sha256": "d873a2a9d95c1a6984ca56cb9bc77fd6e895365c6b808784e303078ceccaf018",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2l_cached_test/run_20261105T023605_900720Z/summary.json",
+      "public_path": "research_artifacts/library_comparison/summary.json",
+      "original_sha256": "1b245a24f8fda9e78b74049c8ccb8043b861e97dec24f6175779820036f18fd5",
+      "public_sha256": "1b245a24f8fda9e78b74049c8ccb8043b861e97dec24f6175779820036f18fd5",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2o_alternative_metrics/run_20261105T084820_088893Z/summary.json",
+      "public_path": "research_artifacts/alternative_metrics/summary.json",
+      "original_sha256": "5454e28fc24134def2ea8b3f0b0bcccfd72dc6583c1b240b6d553d10f21fe28a",
+      "public_sha256": "5454e28fc24134def2ea8b3f0b0bcccfd72dc6583c1b240b6d553d10f21fe28a",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2p_business_satisfaction/pilot_20261105T115336_965956Z/summary.json",
+      "public_path": "research_artifacts/service_pilot48/summary.json",
+      "original_sha256": "fd02e3ed6dccc89938e9208ca4c44eb91a7a52d6e61e5afb182ab9ff679ccff1",
+      "public_sha256": "fd02e3ed6dccc89938e9208ca4c44eb91a7a52d6e61e5afb182ab9ff679ccff1",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2c_runs/qwen8_test_v1/p2c_summary_by_seed_and_pooled.csv",
+      "public_path": "research_artifacts/p2c/p2c_summary_by_seed_and_pooled.csv",
+      "original_sha256": "6738be1d44f4238f36ca1bbe59855881d88c0c69821919d943b2bc409e0361c9",
+      "public_sha256": "af0b0207d935e7cf3a949d7ebc00546d434f6c800749359dc3d0c6d14a450657",
+      "changed_for_publication": true,
+      "changes": [
+        "replace private endpoint/local project path"
+      ]
+    },
+    {
+      "original_relative_path": "p2c_runs/qwen8_test_v1/p2c_paired_comparisons.csv",
+      "public_path": "research_artifacts/p2c/p2c_paired_comparisons.csv",
+      "original_sha256": "039f4647b08ed04fcdf0ab0bd012a765255fde2e1a19c71acad206aae77cbb9d",
+      "public_sha256": "a8e118be510026fdb8aed681fa1cbcc7164ee092a6783c98dd2fc0154e199698",
+      "changed_for_publication": true,
+      "changes": [
+        "replace private endpoint/local project path"
+      ]
+    },
+    {
+      "original_relative_path": "p2c_runs/qwen8_test_v1/protocol_lock.json",
+      "public_path": "research_artifacts/p2c/protocol_lock.json",
+      "original_sha256": "a0f599de180868273a80503ed35d6427710fa0d0eb241df7764046bf218e4ce5",
+      "public_sha256": "5c5f3cf282f25083177b23d2ae417f27289fc4717ce6a710780aa72a62cdb48f",
+      "changed_for_publication": true,
+      "changes": [
+        "replace private endpoint/local project path"
+      ]
+    },
+    {
+      "original_relative_path": "p2c_runs/qwen8_test_v1/provenance/eval_hotfix_attestation.json",
+      "public_path": "research_artifacts/p2c/eval_hotfix_attestation.json",
+      "original_sha256": "66cb4e729a61baf23a6dd93da7bf7a478b04bc438dd6704c2491e5be3a15b7d0",
+      "public_sha256": "66cb4e729a61baf23a6dd93da7bf7a478b04bc438dd6704c2491e5be3a15b7d0",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2m_paper/fresh_20261105T025939_435887Z/audit.json",
+      "public_path": "research_artifacts/paper_fresh/audit.json",
+      "original_sha256": "e1f06ff2058c3f54c38aa142c61e6524e1a518256276f363a620e8430889fd9d",
+      "public_sha256": "e1f06ff2058c3f54c38aa142c61e6524e1a518256276f363a620e8430889fd9d",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2m_paper/cached_20261105T025855_555782Z/audit.json",
+      "public_path": "research_artifacts/paper_existing/audit.json",
+      "original_sha256": "e5ce39dbc7ef3492811687d0d34c6e4b11ed5a096ce4f0b9190dba6bf5d475d9",
+      "public_sha256": "e5ce39dbc7ef3492811687d0d34c6e4b11ed5a096ce4f0b9190dba6bf5d475d9",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2i_node_boundary/run_20261105T012338_935948Z/candidate.json",
+      "public_path": "research_artifacts/frozen_node/candidate.json",
+      "original_sha256": "35f0f3ff1e8d094d5b7da3e762ec7b37ae7b0d8877393c94bef70befd0aac36f",
+      "public_sha256": "35f0f3ff1e8d094d5b7da3e762ec7b37ae7b0d8877393c94bef70befd0aac36f",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2j_validation/run_20261105T014642_470733Z/protocol.json",
+      "public_path": "research_artifacts/validation200/protocol.json",
+      "original_sha256": "e16358654db4e9fcdb1151273c167a7d8aa4f06aa7301b5d86f570215c46ae43",
+      "public_sha256": "e16358654db4e9fcdb1151273c167a7d8aa4f06aa7301b5d86f570215c46ae43",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "p2c_runs/qwen8_test_v1/provenance/main_generation.py",
+      "public_path": "research_artifacts/p2c/main_generation.py",
+      "original_sha256": "454734b6139116d2f969d7b9fa444f998df943f42652b83eee4029b8c713424b",
+      "public_sha256": "454734b6139116d2f969d7b9fa444f998df943f42652b83eee4029b8c713424b",
+      "changed_for_publication": false,
+      "changes": []
+    },
+    {
+      "original_relative_path": "main.py",
+      "public_path": "research_artifacts/p2c/main_evaluation.py",
+      "original_sha256": "26974d05099627e6d33833c8e2c4d22f7162ef05a48530c5a04895ce37b3a2f7",
+      "public_sha256": "26974d05099627e6d33833c8e2c4d22f7162ef05a48530c5a04895ce37b3a2f7",
+      "changed_for_publication": false,
+      "changes": []
+    }
+  ],
+  "original_runs_not_modified": true,
+  "audit_note": "Saved audit.json statuses are archived evidence, not rerun audits in this publication."
+}

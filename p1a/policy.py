@@ -81,7 +81,7 @@ class ChatCompletionsClient:
     def __init__(self, base_url=None, api_key=None, model=None, temperature=0.1,
                  max_tokens=4096, read_timeout=120.0, stream=True, session=None):
         self.base_url = (base_url or os.getenv("LLM_BASE_URL") or
-                         "http://192.168.131.35:30001/v1").rstrip("/")
+                         "https://llm.example.invalid/v1").rstrip("/")
         self.api_key = api_key if api_key is not None else os.getenv("LLM_API_KEY", "")
         if not self.api_key or self.api_key.strip().lower() in ("sk-xxx", "your-key", "your_api_key"):
             raise ValueError("LLM_API_KEY must be configured with a real token")

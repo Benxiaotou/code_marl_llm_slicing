@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "paired_scenes": 1536,
+  "arms": 12,
+  "metric_rows_checked": 18432,
+  "actions_reconstructed": 18432,
+  "kNN_historical_controls": 0,
+  "historical_probes": 0,
+  "post_controls": 36,
+  "prompts_and_responses_reconstructed": 6144,
+  "fresh_requests": 6144,
+  "source_and_dataset_hashes_unchanged": true,
+  "API_calls_during_audit": 0
+}

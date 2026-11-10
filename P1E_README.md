@@ -40,7 +40,7 @@ P1-E 不修改冻结 Qwen 权重，不重新训练 MAPPO，不修改原 GEANT �
 
 ```powershell
 conda activate marl
-cd F:\Projects\code_marl_v0_exper_1
+cd path/to/code_marl_llm_slicing
 ```
 
 先备份下列**将被替换**的 P1-D 文件，再解压本补丁到项目根目录：

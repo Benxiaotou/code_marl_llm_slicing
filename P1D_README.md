@@ -16,7 +16,7 @@
 
 ```powershell
 conda activate marl
-cd F:\Projects\code_marl_v0_exper_1
+cd path/to/code_marl_llm_slicing
 ```
 
 将压缩包解压到项目根目录：新增 `p1d/`、`p1d_build_ir.py`、`p1d_report.py`、`tests/test_p1d.py` 和此说明，**更新** `p1c/policy.py`、`p1c_runner.py`、`p1c_compare.py`。请先保留这三个原文件备份；补丁不覆盖 `main.py`、checkpoint、P1-B 经验库或原实验记录。

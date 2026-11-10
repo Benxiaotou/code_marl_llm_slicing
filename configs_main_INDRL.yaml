@@ -20,11 +20,7 @@ vectorize: "DummyVecMultiAgentEnv" # "DummyVecMultiAgentEnv"
 # "SubprocVecMultiAgentEnv"  # The method to vectorize your environment such that can run in parallel.
 
 topology_file: 'GEANT'
-#root: "E:\\PXL\\paper_code\\pxl_4_code\\code_marl_v0_exper"
-root: "F:\\Projects\\code_marl_v0_exper_1"
-#root: "C:\\Users\\Lenovo\\Desktop\\paper_code\\pxl_4_code\\code_marl_v0"
-#result_root: "C:\\Users\\Lenovo\\Desktop\\paper_code\\pxl_4_code\\code_marl_v0\\result"
-#data_root: "C:\\Users\\Lenovo\\Desktop\\paper_code\\pxl_4_code\\code_marl_v0\\data'
+root: '.'
 
 
 # recurrent settings for Basic_RNN representation.

@@ -110,7 +110,7 @@ def run_probe(url, key, model, timeout=90.0, stream=False, no_proxy=False, out=p
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--url', default=os.getenv('LLM_BASE_URL', 'http://192.168.131.35:30001/v1'))
+    parser.add_argument('--url', default=os.getenv('LLM_BASE_URL', 'https://llm.example.invalid/v1'))
     parser.add_argument('--model', default=os.getenv('LLM_MODEL', 'deepseek-v4-flash-0731'))
     parser.add_argument('--timeout', type=float, default=90)
     parser.add_argument('--stream', action='store_true')

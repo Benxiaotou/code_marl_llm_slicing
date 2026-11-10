@@ -1,0 +1,516 @@
+{
+  "status": "COMPLETE",
+  "paired_scenes": 48,
+  "metrics": {
+    "MAPPO_raw": {
+      "n": 48,
+      "admitted": 37,
+      "acceptance_rate": 0.7708333333333334,
+      "demand_satisfaction": {
+        "task_count": 0.6029947916666667,
+        "compute": 0.5507119941172129,
+        "cache": 0.630989095002064,
+        "od_Gbps": 0.7775230579655144,
+        "path_load_Gbps": 0.7805244455194876
+      },
+      "totals": {
+        "task_count": {
+          "requested": 23040.0,
+          "served": 13893.0
+        },
+        "compute": {
+          "requested": 129493.89172087057,
+          "served": 71313.83933559908
+        },
+        "cache": {
+          "requested": 59677.332976963575,
+          "served": 37655.746327271074
+        },
+        "od_Gbps": {
+          "requested": 135.28000173309997,
+          "served": 105.18332062909997
+        },
+        "path_load_Gbps": {
+          "requested": 259.10417770899994,
+          "served": 202.23714463809998
+        }
+      },
+      "retention_given_admission": {
+        "task_count": 0.7837197495346082,
+        "compute": 0.7142203261867643,
+        "cache": 0.8212580056943021
+      },
+      "original_model_revenue_weighted_satisfaction": 0.6942311102283798,
+      "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+    },
+    "Qwen_raw": {
+      "n": 48,
+      "admitted": 42,
+      "acceptance_rate": 0.875,
+      "demand_satisfaction": {
+        "task_count": 0.7145399305555555,
+        "compute": 0.6589059480891813,
+        "cache": 0.7441025751385003,
+        "od_Gbps": 0.8711292255074359,
+        "path_load_Gbps": 0.8700806378251202
+      },
+      "totals": {
+        "task_count": {
+          "requested": 23040.0,
+          "served": 16463.0
+        },
+        "compute": {
+          "requested": 129493.89172087057,
+          "served": 85324.29549609801
+        },
+        "cache": {
+          "requested": 59677.332976963575,
+          "served": 44406.05714555634
+        },
+        "od_Gbps": {
+          "requested": 135.28000173309997,
+          "served": 117.84636313639996
+        },
+        "path_load_Gbps": {
+          "requested": 259.10417770899994,
+          "served": 225.44152820419998
+        }
+      },
+      "retention_given_admission": {
+        "task_count": 0.8177122137783738,
+        "compute": 0.7509613316131332,
+        "cache": 0.853969581514526
+      },
+      "original_model_revenue_weighted_satisfaction": 0.7923073158573993,
+      "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+    },
+    "Qwen_both": {
+      "n": 48,
+      "admitted": 43,
+      "acceptance_rate": 0.8958333333333334,
+      "demand_satisfaction": {
+        "task_count": 0.73515625,
+        "compute": 0.6774251777056827,
+        "cache": 0.7659639805640028,
+        "od_Gbps": 0.8906484206070167,
+        "path_load_Gbps": 0.8890652392051278
+      },
+      "totals": {
+        "task_count": {
+          "requested": 23040.0,
+          "served": 16938.0
+        },
+        "compute": {
+          "requested": 129493.89172087057,
+          "served": 87722.42261081118
+        },
+        "cache": {
+          "requested": 59677.332976963575,
+          "served": 45710.68751647845
+        },
+        "od_Gbps": {
+          "requested": 135.28000173309997,
+          "served": 120.48691988329996
+        },
+        "path_load_Gbps": {
+          "requested": 259.10417770899994,
+          "served": 230.36051773389997
+        }
+      },
+      "retention_given_admission": {
+        "task_count": 0.8199244844612257,
+        "compute": 0.7535763181294153,
+        "cache": 0.8558490718786121
+      },
+      "original_model_revenue_weighted_satisfaction": 0.811540463536358,
+      "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+    }
+  },
+  "per_seed": {
+    "2026110511": {
+      "MAPPO_raw": {
+        "n": 16,
+        "admitted": 13,
+        "acceptance_rate": 0.8125,
+        "demand_satisfaction": {
+          "task_count": 0.6802063185041909,
+          "compute": 0.6445060246945513,
+          "cache": 0.699881487746605,
+          "od_Gbps": 0.8226511417514548,
+          "path_load_Gbps": 0.8276447806751573
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7755.0,
+            "served": 5275.0
+          },
+          "compute": {
+            "requested": 43775.62594074764,
+            "served": 28213.65465358694
+          },
+          "cache": {
+            "requested": 20032.995216674626,
+            "served": 14020.722496266859
+          },
+          "od_Gbps": {
+            "requested": 45.24959043859999,
+            "served": 37.22462723809999
+          },
+          "path_load_Gbps": {
+            "requested": 86.53773576759997,
+            "served": 71.6225053395
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.8366375892149088,
+          "compute": 0.7909930432837842,
+          "cache": 0.8623650674408384
+        },
+        "original_model_revenue_weighted_satisfaction": 0.7572972489525254,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      },
+      "Qwen_raw": {
+        "n": 16,
+        "admitted": 15,
+        "acceptance_rate": 0.9375,
+        "demand_satisfaction": {
+          "task_count": 0.7757575757575758,
+          "compute": 0.7264588415551778,
+          "cache": 0.8028957831303549,
+          "od_Gbps": 0.9353858582860035,
+          "path_load_Gbps": 0.9359727559271956
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7755.0,
+            "served": 6016.0
+          },
+          "compute": {
+            "requested": 43775.62594074764,
+            "served": 31801.19050926832
+          },
+          "cache": {
+            "requested": 20032.995216674626,
+            "served": 16084.407382938627
+          },
+          "od_Gbps": {
+            "requested": 45.24959043859999,
+            "served": 42.32582698949999
+          },
+          "path_load_Gbps": {
+            "requested": 86.53773576759997,
+            "served": 80.99696303809999
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.8267143053456094,
+          "compute": 0.7737972914516192,
+          "cache": 0.8564926836119396
+        },
+        "original_model_revenue_weighted_satisfaction": 0.857237671509265,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      },
+      "Qwen_both": {
+        "n": 16,
+        "admitted": 15,
+        "acceptance_rate": 0.9375,
+        "demand_satisfaction": {
+          "task_count": 0.7757575757575758,
+          "compute": 0.7264588415551778,
+          "cache": 0.8028957831303549,
+          "od_Gbps": 0.9353858582860035,
+          "path_load_Gbps": 0.9359727559271956
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7755.0,
+            "served": 6016.0
+          },
+          "compute": {
+            "requested": 43775.62594074764,
+            "served": 31801.19050926832
+          },
+          "cache": {
+            "requested": 20032.995216674626,
+            "served": 16084.407382938627
+          },
+          "od_Gbps": {
+            "requested": 45.24959043859999,
+            "served": 42.32582698949999
+          },
+          "path_load_Gbps": {
+            "requested": 86.53773576759997,
+            "served": 80.99696303809999
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.8267143053456094,
+          "compute": 0.7737972914516192,
+          "cache": 0.8564926836119396
+        },
+        "original_model_revenue_weighted_satisfaction": 0.857237671509265,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      }
+    },
+    "2026110512": {
+      "MAPPO_raw": {
+        "n": 16,
+        "admitted": 12,
+        "acceptance_rate": 0.75,
+        "demand_satisfaction": {
+          "task_count": 0.5902704135737009,
+          "compute": 0.5354868425714342,
+          "cache": 0.6188209031588408,
+          "od_Gbps": 0.7615236785642183,
+          "path_load_Gbps": 0.7662345137088963
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7544.0,
+            "served": 4453.0
+          },
+          "compute": {
+            "requested": 42186.69640386889,
+            "served": 22590.42085582743
+          },
+          "cache": {
+            "requested": 19559.855623716616,
+            "served": 12104.047522724846
+          },
+          "od_Gbps": {
+            "requested": 43.96917120269998,
+            "served": 33.483564997699986
+          },
+          "path_load_Gbps": {
+            "requested": 82.86380895799998,
+            "served": 63.493110361
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.788979447200567,
+          "compute": 0.7136748890113567,
+          "cache": 0.8294712726148785
+        },
+        "original_model_revenue_weighted_satisfaction": 0.6789802478215199,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      },
+      "Qwen_raw": {
+        "n": 16,
+        "admitted": 13,
+        "acceptance_rate": 0.8125,
+        "demand_satisfaction": {
+          "task_count": 0.6378579003181336,
+          "compute": 0.567397364948366,
+          "cache": 0.6744108388049933,
+          "od_Gbps": 0.8174865938795041,
+          "path_load_Gbps": 0.8200030795632401
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7544.0,
+            "served": 4812.0
+          },
+          "compute": {
+            "requested": 42186.69640386889,
+            "served": 23936.620375431918
+          },
+          "cache": {
+            "requested": 19559.855623716616,
+            "served": 13191.378638095288
+          },
+          "od_Gbps": {
+            "requested": 43.96917120269998,
+            "served": 35.944208002199986
+          },
+          "path_load_Gbps": {
+            "requested": 82.86380895799998,
+            "served": 67.94857852989999
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.7855044074436827,
+          "compute": 0.6953192805072079,
+          "cache": 0.8335627140437886
+        },
+        "original_model_revenue_weighted_satisfaction": 0.7266185965326583,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      },
+      "Qwen_both": {
+        "n": 16,
+        "admitted": 14,
+        "acceptance_rate": 0.875,
+        "demand_satisfaction": {
+          "task_count": 0.7008218451749735,
+          "compute": 0.6242429423255325,
+          "cache": 0.7411102253454658,
+          "od_Gbps": 0.8775413248346752,
+          "path_load_Gbps": 0.87936541870207
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7544.0,
+            "served": 5287.0
+          },
+          "compute": {
+            "requested": 42186.69640386889,
+            "served": 26334.747490145077
+          },
+          "cache": {
+            "requested": 19559.855623716616,
+            "served": 14496.009009017398
+          },
+          "od_Gbps": {
+            "requested": 43.96917120269998,
+            "served": 38.58476474909999
+          },
+          "path_load_Gbps": {
+            "requested": 82.86380895799998,
+            "served": 72.86756805959999
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.7949180574349722,
+          "compute": 0.707668019752263,
+          "cache": 0.8410565831368697
+        },
+        "original_model_revenue_weighted_satisfaction": 0.7862391310266885,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      }
+    },
+    "2026110513": {
+      "MAPPO_raw": {
+        "n": 16,
+        "admitted": 12,
+        "acceptance_rate": 0.75,
+        "demand_satisfaction": {
+          "task_count": 0.5380441803384576,
+          "compute": 0.4711468968397117,
+          "cache": 0.5741236557592058,
+          "od_Gbps": 0.7484628795184651,
+          "path_load_Gbps": 0.7482670988043488
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7741.0,
+            "served": 4165.0
+          },
+          "compute": {
+            "requested": 43531.56937625405,
+            "served": 20509.76382618472
+          },
+          "cache": {
+            "requested": 20084.482136572333,
+            "served": 11530.976308279372
+          },
+          "od_Gbps": {
+            "requested": 46.06124009179999,
+            "served": 34.47512839329999
+          },
+          "path_load_Gbps": {
+            "requested": 89.70263298339998,
+            "served": 67.12152893759999
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.7208376600899965,
+          "compute": 0.6305611962308719,
+          "cache": 0.768713316782941
+        },
+        "original_model_revenue_weighted_satisfaction": 0.6467722404343011,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      },
+      "Qwen_raw": {
+        "n": 16,
+        "admitted": 14,
+        "acceptance_rate": 0.875,
+        "demand_satisfaction": {
+          "task_count": 0.7279421263402661,
+          "compute": 0.6796558230114453,
+          "cache": 0.7533314038987015,
+          "od_Gbps": 0.8592110864975502,
+          "path_load_Gbps": 0.8527730356627997
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7741.0,
+            "served": 5635.0
+          },
+          "compute": {
+            "requested": 43531.56937625405,
+            "served": 29586.484611397773
+          },
+          "cache": {
+            "requested": 20084.482136572333,
+            "served": 15130.271124522427
+          },
+          "od_Gbps": {
+            "requested": 46.06124009179999,
+            "served": 39.576328144699986
+          },
+          "path_load_Gbps": {
+            "requested": 89.70263298339998,
+            "served": 76.49598663619999
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.837295690936107,
+          "compute": 0.776606172061653,
+          "cache": 0.8698111547364955
+        },
+        "original_model_revenue_weighted_satisfaction": 0.7905934150844062,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      },
+      "Qwen_both": {
+        "n": 16,
+        "admitted": 14,
+        "acceptance_rate": 0.875,
+        "demand_satisfaction": {
+          "task_count": 0.7279421263402661,
+          "compute": 0.6796558230114453,
+          "cache": 0.7533314038987015,
+          "od_Gbps": 0.8592110864975502,
+          "path_load_Gbps": 0.8527730356627997
+        },
+        "totals": {
+          "task_count": {
+            "requested": 7741.0,
+            "served": 5635.0
+          },
+          "compute": {
+            "requested": 43531.56937625405,
+            "served": 29586.484611397773
+          },
+          "cache": {
+            "requested": 20084.482136572333,
+            "served": 15130.271124522427
+          },
+          "od_Gbps": {
+            "requested": 46.06124009179999,
+            "served": 39.576328144699986
+          },
+          "path_load_Gbps": {
+            "requested": 89.70263298339998,
+            "served": 76.49598663619999
+          }
+        },
+        "retention_given_admission": {
+          "task_count": 0.837295690936107,
+          "compute": 0.776606172061653,
+          "cache": 0.8698111547364955
+        },
+        "original_model_revenue_weighted_satisfaction": 0.7905934150844062,
+        "warning": "Model-retained demand under original admission check; not measured completion/SLA."
+      }
+    }
+  },
+  "checks": {
+    "cached_metric_reproductions": 144,
+    "unwrapped_post_controls": 9,
+    "same_requested_demand_across_arms": true,
+    "revenue_identity": true,
+    "original_snapshots_unchanged_in_memory": true,
+    "environment_sources_unchanged": true
+  },
+  "API_calls": 0,
+  "additional_API_cost_usd": 0
+}

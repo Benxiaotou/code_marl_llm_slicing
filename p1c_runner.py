@@ -42,7 +42,7 @@ def get_args(argv=None):
     p.add_argument('--seed', type=int, default=1)
     p.add_argument('--config', default='configs_main.yaml')
     p.add_argument('--model', default=os.getenv('P1A_MODEL', 'qwen3-next-80b-a3b-instruct'))
-    p.add_argument('--base-url', default=os.getenv('LLM_BASE_URL', 'http://192.168.131.35:30001/v1'))
+    p.add_argument('--base-url', default=os.getenv('LLM_BASE_URL', 'https://llm.example.invalid/v1'))
     p.add_argument('--temperature', type=float, default=.1)
     p.add_argument('--max-tokens', type=int, default=4096)
     p.add_argument('--api-timeout', type=float, default=120)

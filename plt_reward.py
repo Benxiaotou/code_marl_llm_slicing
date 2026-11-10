@@ -37,7 +37,7 @@ if __name__ == "__main__":
     SEED = 1
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # -----------------------------path---------------------------
-    root = '/home/chen/workspace/peixinglong/code_for_pxl1/result'
+    root = './result'
 
     path_model_train_log = os.path.join(root, 'model_train_log')
     if not os.path.exists("%s" % path_model_train_log):

@@ -4,7 +4,7 @@
 
 修复：对旧版 P1-D，允许这两个字段缺失；若字段明确存在，则必须为 True。保留训练 IR 历史哈希、模型参数、当前局部状态和实际完整 Prompt 的逐场景严格核对。
 
-安装：备份本地 `p2a_compare.py` 与 `tests/test_p2a.py`，把本 ZIP 解压到 `F:\Projects\code_marl_v0_exper_1` 根目录。
+安装：备份本地 `p2a_compare.py` 与 `tests/test_p2a.py`，把本 ZIP 解压到 `path/to/code_marl_llm_slicing` 根目录。
 
 验证：
 ```

@@ -1,0 +1,20 @@
+{
+  "status": "DEVELOPMENT_CANDIDATE_ONLY",
+  "method": "buffer01_d025",
+  "base_method": "link_mean3_a0.5",
+  "cached_model": "qwen3-next-80b-a3b-instruct",
+  "function": "p2i_node_boundary.bounded_release.adjust_local",
+  "max_ratio_increment": 0.025,
+  "extra_projected_overload_budget": 0.01,
+  "policy_source_sha256": "035fbe26e6eca5ee743c18b850174be16b673df5b4131d9d246512b9aa8b2e00",
+  "unchanged_controls": [
+    "agent_g",
+    "existing_role_link_dimensions"
+  ],
+  "API_calls": 0,
+  "selection_dataset": "p2b_val_seed5601",
+  "selection_scene_count": 200,
+  "n_cached_draws": 3,
+  "limitation": "Not independent confirmation;3-4 cooperative losses per draw despite net gains. Do not tune using already-inspected tests.",
+  "mean_V_across_draws": 349.8029722492077
+}

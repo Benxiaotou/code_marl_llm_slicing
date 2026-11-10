@@ -7,7 +7,7 @@
 将本 ZIP 的内容解压到现有项目根目录，即包含 `p1a_runner.py`、`p1a/` 和 `main.py` 的位置：
 
 ```
-F:\Projects\code_marl_v0_exper_1
+path/to/code_marl_llm_slicing
     main.py                       (原文件，保持不变)
     p1a_runner.py                (原文件，保持不变)
     p1a/                         (原目录，保持不变)
@@ -23,7 +23,7 @@ F:\Projects\code_marl_v0_exper_1
 
 ```powershell
 conda activate marl
-cd F:\Projects\code_marl_v0_exper_1
+cd path/to/code_marl_llm_slicing
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
@@ -66,7 +66,7 @@ PowerShell 设置当前终端的 API key（不要上传或提交密钥）：
 
 ```powershell
 $env:LLM_API_KEY = "你的真实令牌"
-$env:LLM_BASE_URL = "http://192.168.131.35:30001/v1"
+$env:LLM_BASE_URL = "https://llm.example.invalid/v1"
 ```
 
 先在相同场景、相同模型配置下跑原始 P1-A 和语义增强 P1-A+：

@@ -266,7 +266,7 @@ class LLMPolicy:
         self.key = api_key or os.environ.get("LLM_API_KEY")
         if not self.key:
             raise ValueError("LLM_API_KEY is required for LLM evaluation; no silent heuristic substitution")
-        self.base_url = (base_url or os.environ.get("LLM_BASE_URL") or "http://192.168.131.35:30001/v1").rstrip("/")
+        self.base_url = (base_url or os.environ.get("LLM_BASE_URL") or "https://llm.example.invalid/v1").rstrip("/")
         if not (self.base_url.endswith("/v1")):
             raise ValueError("LLM_BASE_URL should end with /v1, not /chat/completions")
         self.model = model or os.environ.get("LLM_MODEL") or "deepseek-v4-flash-0731"

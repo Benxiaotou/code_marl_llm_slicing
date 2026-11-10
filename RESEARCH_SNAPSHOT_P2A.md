@@ -1,4 +1,4 @@
-﻿# Research snapshot: P0 to P2-A
+# Research snapshot: P0 to P2-A
 
 This is a **development-stage** snapshot of decentralized network-slice
 resource allocation experiments with a frozen Qwen model and a frozen MAPPO

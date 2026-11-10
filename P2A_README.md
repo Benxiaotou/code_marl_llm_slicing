@@ -23,13 +23,13 @@ P2-A **只更换检索到的历史示例**：首先使用 P1-C 局部相似度�
 
 **先备份** `p1c_runner.py` 和 `p1c/policy.py`；然后把 ZIP 解压到：
 
-`F:\Projects\code_marl_v0_exper_1`
+`path/to/code_marl_llm_slicing`
 
 此次只覆盖以上两个文件；新增 `p2a/`、`p2a_preview.py`、`p2a_compare.py`、`tests/test_p2a.py`、本 README 和发布 manifest。**不会覆盖** `main.py`、原 MAPPO checkpoint、原 P1-B/P1-D 经验数据及任何先前运行记录。此前 P1-C/P1-D/P1-E 的原方法仍然可用。
 
 ```powershell
 conda activate marl
-cd F:\Projects\code_marl_v0_exper_1
+cd path/to/code_marl_llm_slicing
 
 python -m unittest discover -s tests -p "test_p2a.py" -v
 python -m unittest discover -s tests -p "test_*.py" -v

@@ -151,3 +151,86 @@ p2a_runs/
 outputs/
 results/
 checkpoints/
+
+# Proposed additions for the PUBLICATION repository; review and MERGE.
+# Do not replace its existing .gitignore with the experiment repo version.
+
+# Credentials and machine state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/
+tmp/
+F_save/
+publication_review_*/
+local_unuploaded_files.txt
+
+# Historical source copies / removed research topics
+*.backup
+*.before_*
+*.p0-original-backup
+*.p0_v1_numeric_example_backup
+archive_removed_*/
+
+# Generated data / weights / raw API records
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.jsonl
+*.pt
+*.pth
+*.ckpt
+*.bin
+p0_runs/
+p1a_runs/
+p1aplus_runs/
+p1b_runs/
+p1b_data/
+p1b_libraries/
+p1c_runs/
+p1d_libraries/
+p1d_runs/
+p1e_runs/
+p2a_runs/
+p2b_runs/
+p2b_libraries/
+p2b_ir_libraries/
+p2b_phase2_inputs/
+p2c_runs/
+gpt61_runs/
+**/run_*/
+**/cached_*/
+**/fresh_*/
+**/temp_*/
+**/pilot_*/
+**/report_*/
+**/service_*/
+p2f_analysis/qwen_diagnosis/
+p2f_analysis/qwen_full200/
+p2f_analysis/qwen_link_pilot/
+p2f_analysis/val5601_counterfactual/
+p2f_analysis/val5601_trace/
+p2f_analysis/results_*/
+p2g_autonomous/results/
+p3_autonomous/results/
+p3_autonomous/queue/
+p3_autonomous/STOP
+p3_autonomous/worker_state.json
+p3_autonomous/AUTHORIZED_SCOPE.md
+p2g_autonomous/AUTHORIZATION_SCOPE.md
+p2g_autonomous/SESSION.md
+p2g_autonomous/latest_full_path.txt
+
+# Existing public ignore rules exclude CSV globally. Allow only individually
+# reviewed curated tables here, then stage files by exact allowlisted paths.
+!research_artifacts/**/*.csv
+!research_artifacts/service_pilot48/
+!research_artifacts/service_pilot48/summary.json
+
+# Frozen source inputs below are individually reviewed public evidence.
+!research_artifacts/p2c/main_generation.py
+publication_release_*/
+.offline_test_tmp/

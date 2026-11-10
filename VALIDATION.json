@@ -1,0 +1,104 @@
+{
+  "python": "3.8.20",
+  "suites": [
+    {
+      "suite": "tests",
+      "tests": 112,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "gpt61_adapter_tests",
+      "tests": 9,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2d_replay",
+      "tests": 9,
+      "skipped": 1,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2d_node_link",
+      "tests": 13,
+      "skipped": 2,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2e_prompt/tests",
+      "tests": 22,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2f_analysis",
+      "tests": 7,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2h_v_decomposition",
+      "tests": 3,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2i_node_boundary",
+      "tests": 6,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2j_validation",
+      "tests": 4,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2l_cached_test",
+      "tests": 3,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p2m_paper",
+      "tests": 4,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "p3_gpt_heterogeneous_dev",
+      "tests": 9,
+      "skipped": 0,
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "tests": 201,
+  "passed": true,
+  "skipped": 3,
+  "external_network_blocked": true,
+  "real_model_credentials_removed": true,
+  "new_model_calls": 0,
+  "additional_model_api_cost_usd": 0,
+  "date_Tokyo": "2026-11-10",
+  "powershell_parse": {
+    "count": 13,
+    "passed": true,
+    "errors": []
+  },
+  "historical_numeric_audits_rerun": false,
+  "clean_environment_install_tested": false
+}

@@ -18,7 +18,7 @@ In project root, Conda `marl`, use an actual credential, not the literal string 
 ```powershell
 conda activate marl
 $env:LLM_API_KEY="<your actual token>"
-$env:LLM_BASE_URL="http://192.168.131.35:30001/v1"
+$env:LLM_BASE_URL="https://llm.example.invalid/v1"
 $env:LLM_MODEL="deepseek-v4-flash-0731"
 python p0_api_probe.py --timeout 90
 python p0_api_probe.py --stream --timeout 180

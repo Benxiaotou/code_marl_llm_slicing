@@ -44,7 +44,7 @@ code_marl_v0_exper_1/
 
 ```powershell
 conda activate marl
-cd F:\Projects\code_marl_v0_exper_1
+cd path/to/code_marl_llm_slicing
 
 # 第一次仅运行一次。自动备份原 main.py 到 main.py.p0-original-backup
 python p0_patch_main.py
@@ -77,7 +77,7 @@ python p0_runner.py --dataset mini --policy mappo --count 5 --checkpoint "marl_m
 
 ```powershell
 $env:LLM_API_KEY="在这里填你自己的令牌"
-$env:LLM_BASE_URL="http://192.168.131.35:30001/v1"
+$env:LLM_BASE_URL="https://llm.example.invalid/v1"
 $env:LLM_MODEL="deepseek-v4-flash-0731"
 
 # 先只跑一个真实决策

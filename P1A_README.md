@@ -28,7 +28,7 @@ Windows `(marl)` Conda environment.
 
 ```powershell
 conda activate marl
-cd F:\Projects\code_marl_v0_exper_1
+cd path/to/code_marl_llm_slicing
 python -m unittest discover -s tests -p test_p1a.py -v
 ```
 
@@ -51,7 +51,7 @@ the environment and metrics. **Do not report mock results as Qwen performance**.
 
 ```powershell
 $env:LLM_API_KEY = "<your real internal API key>"
-$env:LLM_BASE_URL = "http://192.168.131.35:30001/v1"
+$env:LLM_BASE_URL = "https://llm.example.invalid/v1"
 python p1a_runner.py --dataset mini --policy qwen --count 1 --max-tokens 4096 --api-timeout 120 --on-error abort
 ```
 

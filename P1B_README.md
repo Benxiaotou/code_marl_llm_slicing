@@ -35,7 +35,7 @@ tests/test_p1b_generation.py  新数据生成安全测试
 
 ```powershell
 conda activate marl
-cd F:\Projects\code_marl_v0_exper_1
+cd path/to/code_marl_llm_slicing
 python -m unittest discover -s tests -p "test_p1b*.py" -v
 ```
 

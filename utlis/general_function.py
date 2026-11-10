@@ -109,7 +109,7 @@ def weights_init_1(m):
 def init_data_folders(dataset='UPB', class_num=7, num_samples_per_class=300):
     # init character folders for dataset construction
     if dataset == 'UPB':
-        datapath = '/home/chen/workspace/peixinglong/code_for_pxl1/tempdata/UPB/7way.pkl'
+        datapath = './tempdata/UPB/7way.pkl'
         # datapath = '.\\tempdata\\' + 'UPB\\' + str(class_num) + 'way' + '.pkl'#!!!!!!!
         logging.info("datset: " + dataset + '   datapath: ' + datapath)
         if not os.path.exists("%s" % datapath):

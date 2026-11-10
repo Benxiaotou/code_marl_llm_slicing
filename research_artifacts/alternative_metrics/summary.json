@@ -1,0 +1,237 @@
+{
+  "analysis": "post-hoc descriptive; no confirmatory significance claim or policy selection",
+  "arms": [
+    "MAPPO_raw",
+    "Qwen_raw",
+    "Qwen_both"
+  ],
+  "dataset_seeds": [
+    2026110511,
+    2026110512,
+    2026110513
+  ],
+  "scenes_per_seed": 512,
+  "input": "p2m_paper\\fresh_20261105T025939_435887Z\\records.jsonl",
+  "input_bytes": 20843146,
+  "input_sha256": "32c92b1f0727cd666712a3558577e87813b9b9df81c24fe1511f738329ed95b6",
+  "script_sha256": "3608d4119f9af4acee620a04af0d4e32a79c24a472ce77aa0383c634187c2f2a",
+  "definitions": {
+    "cost_per_admission": "sum(cost_sum over all attempts)/sum(g_done); excludes API/inference costs",
+    "delta_V": "V - sum(V_k0 for k1,k2,k3); original new-slice disagreement utility is zero",
+    "tail": "lowest 10% empirical probability mass of delta_V, fractional boundary; sorted separately per arm",
+    "gross_revenue": "mean(revenue_g over all scenes), failures included as zero; modeled revenue, not throughput",
+    "business_fulfillment_rate": "not identifiable from saved scoring records: original requested/actual completed business totals absent"
+  },
+  "metrics": {
+    "MAPPO_raw": {
+      "n": 1536,
+      "accepted": 1261,
+      "acceptance_rate": 0.8209635416666666,
+      "V_mean": 341.423768189498,
+      "cost_mean": 34.6697717568109,
+      "cost_total": 53252.76941846155,
+      "cost_per_successful_admission": 42.23058637467212,
+      "delta_V_mean": 59.34963037971492,
+      "lower_tail_10pct_delta_V": -22.138562277030363,
+      "negative_delta_V_count": 265,
+      "new_slice_gross_revenue_mean": 72.24293439083065,
+      "new_slice_gross_revenue_given_admission": 87.99773768780007,
+      "new_slice_net_utility_mean": 24.412388859273634
+    },
+    "Qwen_raw": {
+      "n": 1536,
+      "accepted": 1365,
+      "acceptance_rate": 0.888671875,
+      "V_mean": 339.42599902806694,
+      "cost_mean": 35.05196964634451,
+      "cost_total": 53839.82537678517,
+      "cost_per_successful_admission": 39.44309551412833,
+      "delta_V_mean": 57.35186121828387,
+      "lower_tail_10pct_delta_V": -27.40450146859146,
+      "negative_delta_V_count": 172,
+      "new_slice_gross_revenue_mean": 78.33666402960189,
+      "new_slice_gross_revenue_given_admission": 88.15026809484873,
+      "new_slice_net_utility_mean": 26.42947606334738
+    },
+    "Qwen_both": {
+      "n": 1536,
+      "accepted": 1444,
+      "acceptance_rate": 0.9401041666666666,
+      "V_mean": 344.1780276275925,
+      "cost_mean": 35.183510494952365,
+      "cost_total": 54041.87212024684,
+      "cost_per_successful_admission": 37.42511919684684,
+      "delta_V_mean": 62.10388981780941,
+      "lower_tail_10pct_delta_V": -5.096985316127908,
+      "negative_delta_V_count": 88,
+      "new_slice_gross_revenue_mean": 82.79164831989698,
+      "new_slice_gross_revenue_given_admission": 88.06646247878238,
+      "new_slice_net_utility_mean": 27.63250385212948
+    }
+  },
+  "per_seed": {
+    "2026110511": {
+      "MAPPO_raw": {
+        "n": 512,
+        "accepted": 414,
+        "acceptance_rate": 0.80859375,
+        "V_mean": 340.8314664136696,
+        "cost_mean": 34.71661476292127,
+        "cost_total": 17774.90675861569,
+        "cost_per_successful_admission": 42.9345573879606,
+        "delta_V_mean": 58.720320102451424,
+        "lower_tail_10pct_delta_V": -20.935517010948086,
+        "negative_delta_V_count": 94,
+        "new_slice_gross_revenue_mean": 71.30402469020632,
+        "new_slice_gross_revenue_given_admission": 88.18275517242907,
+        "new_slice_net_utility_mean": 23.97281875199318
+      },
+      "Qwen_raw": {
+        "n": 512,
+        "accepted": 452,
+        "acceptance_rate": 0.8828125,
+        "V_mean": 339.1220512947845,
+        "cost_mean": 35.000386991069654,
+        "cost_total": 17920.198139427663,
+        "cost_per_successful_admission": 39.64645606068067,
+        "delta_V_mean": 57.010904983566334,
+        "lower_tail_10pct_delta_V": -27.153154738252727,
+        "negative_delta_V_count": 61,
+        "new_slice_gross_revenue_mean": 77.96148487049463,
+        "new_slice_gross_revenue_given_admission": 88.31035454356913,
+        "new_slice_net_utility_mean": 26.383180821689177
+      },
+      "Qwen_both": {
+        "n": 512,
+        "accepted": 480,
+        "acceptance_rate": 0.9375,
+        "V_mean": 344.1486248144248,
+        "cost_mean": 35.1145575007888,
+        "cost_total": 17978.653440403865,
+        "cost_per_successful_admission": 37.45552800084138,
+        "delta_V_mean": 62.03747850320662,
+        "lower_tail_10pct_delta_V": -5.695382179335251,
+        "negative_delta_V_count": 29,
+        "new_slice_gross_revenue_mean": 82.51350094374767,
+        "new_slice_gross_revenue_given_admission": 88.01440100666419,
+        "new_slice_net_utility_mean": 27.65221760498744
+      }
+    },
+    "2026110512": {
+      "MAPPO_raw": {
+        "n": 512,
+        "accepted": 426,
+        "acceptance_rate": 0.83203125,
+        "V_mean": 343.59234753254094,
+        "cost_mean": 34.20651306243078,
+        "cost_total": 17513.73468796456,
+        "cost_per_successful_admission": 41.11205325813277,
+        "delta_V_mean": 61.17398646706702,
+        "lower_tail_10pct_delta_V": -21.88427108761943,
+        "negative_delta_V_count": 85,
+        "new_slice_gross_revenue_mean": 73.5126179651329,
+        "new_slice_gross_revenue_given_admission": 88.35319342288274,
+        "new_slice_net_utility_mean": 25.215019394113007
+      },
+      "Qwen_raw": {
+        "n": 512,
+        "accepted": 460,
+        "acceptance_rate": 0.8984375,
+        "V_mean": 341.55161846367764,
+        "cost_mean": 34.66996040157812,
+        "cost_total": 17751.019725608,
+        "cost_per_successful_admission": 38.58917331653913,
+        "delta_V_mean": 59.13325739820369,
+        "lower_tail_10pct_delta_V": -26.068233956705235,
+        "negative_delta_V_count": 54,
+        "new_slice_gross_revenue_mean": 79.38728610903185,
+        "new_slice_gross_revenue_given_admission": 88.36150106048763,
+        "new_slice_net_utility_mean": 27.063362398707866
+      },
+      "Qwen_both": {
+        "n": 512,
+        "accepted": 485,
+        "acceptance_rate": 0.947265625,
+        "V_mean": 346.0578454325802,
+        "cost_mean": 34.87559062556714,
+        "cost_total": 17856.302400290377,
+        "cost_per_successful_admission": 36.81711835111418,
+        "delta_V_mean": 63.639484367106284,
+        "lower_tail_10pct_delta_V": -0.870682246574064,
+        "negative_delta_V_count": 27,
+        "new_slice_gross_revenue_mean": 83.72892349452428,
+        "new_slice_gross_revenue_given_admission": 88.39012129731223,
+        "new_slice_net_utility_mean": 28.145750525918583
+      }
+    },
+    "2026110513": {
+      "MAPPO_raw": {
+        "n": 512,
+        "accepted": 421,
+        "acceptance_rate": 0.822265625,
+        "V_mean": 339.84749062228343,
+        "cost_mean": 35.086187445080654,
+        "cost_total": 17964.127971881295,
+        "cost_per_successful_admission": 42.67013770043063,
+        "delta_V_mean": 58.15458456962631,
+        "lower_tail_10pct_delta_V": -23.55680057427815,
+        "negative_delta_V_count": 86,
+        "new_slice_gross_revenue_mean": 71.91216051715273,
+        "new_slice_gross_revenue_given_admission": 87.45611920375819,
+        "new_slice_net_utility_mean": 24.04932843171471
+      },
+      "Qwen_raw": {
+        "n": 512,
+        "accepted": 453,
+        "acceptance_rate": 0.884765625,
+        "V_mean": 337.60432732573867,
+        "cost_mean": 35.48556154638575,
+        "cost_total": 18168.607511749506,
+        "cost_per_successful_admission": 40.10730135044041,
+        "delta_V_mean": 55.911421273081594,
+        "lower_tail_10pct_delta_V": -28.863014922749663,
+        "negative_delta_V_count": 57,
+        "new_slice_gross_revenue_mean": 77.66122110927921,
+        "new_slice_gross_revenue_given_admission": 87.7760379866467,
+        "new_slice_net_utility_mean": 25.8418849696451
+      },
+      "Qwen_both": {
+        "n": 512,
+        "accepted": 479,
+        "acceptance_rate": 0.935546875,
+        "V_mean": 342.3276126357724,
+        "cost_mean": 35.560383358501156,
+        "cost_total": 18206.91627955259,
+        "cost_per_successful_admission": 38.010263631633805,
+        "delta_V_mean": 60.63470658311532,
+        "lower_tail_10pct_delta_V": -8.027264814949321,
+        "negative_delta_V_count": 32,
+        "new_slice_gross_revenue_mean": 82.132520521419,
+        "new_slice_gross_revenue_given_admission": 87.79091963876101,
+        "new_slice_net_utility_mean": 27.099543425482416
+      }
+    }
+  },
+  "contrasts": {
+    "Qwen_raw_minus_MAPPO_raw": {
+      "acceptance_percentage_points": 6.7708333333333375,
+      "cost_per_admission_change_pct": -6.600644461369809,
+      "new_slice_gross_revenue_change_pct": 8.435052770426598,
+      "lower_tail_delta_V_difference": -5.265939191561095
+    },
+    "Qwen_both_minus_MAPPO_raw": {
+      "acceptance_percentage_points": 11.9140625,
+      "cost_per_admission_change_pct": -11.379115447725274,
+      "new_slice_gross_revenue_change_pct": 14.60172405511424,
+      "lower_tail_delta_V_difference": 17.041576960902454
+    }
+  },
+  "checks": {
+    "all_rows_arithmetic": 18432,
+    "paired_scene_sets_equal": true,
+    "per_scene_disagreement_values_equal": true,
+    "saved_summary_controls_passed": 12
+  },
+  "API_calls": 0,
+  "additional_API_cost_usd": 0
+}

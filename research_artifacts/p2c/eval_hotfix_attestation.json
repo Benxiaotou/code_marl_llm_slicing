@@ -1,0 +1,24 @@
+{
+  "fix_id": "numpy_shortest_path_equality_v1",
+  "reason": "Replace ambiguous numpy-array != condition in _get_k_link_cost with array_equal",
+  "applied_utc": "2026-11-03T01:18:45.092690+00:00",
+  "generation_main_sha256": "454734b6139116d2f969d7b9fa444f998df943f42652b83eee4029b8c713424b",
+  "evaluation_main_sha256": "26974d05099627e6d33833c8e2c4d22f7162ef05a48530c5a04895ce37b3a2f7",
+  "original_protocol_lock_sha256": "ba6d4dfe2afc7c447f98dd28ab2a72a4754efb0fb6a214dbf55227db3d68223a",
+  "test_dataset_hashes": {
+    "6601": {
+      "manifest_sha256": "0a633e75de79273390ef69079ee3911137d8bd76b760d042930c1bd6893bf8cf",
+      "sample_sha256": "196d1587c08804d090bffbabc7ad78c465d2f9a842ab3923d4bd99303fc96757"
+    },
+    "6701": {
+      "manifest_sha256": "a5b3f924fc7541a21857caaae3aa379cda7c45dc1183435442a494a8e39efbcc",
+      "sample_sha256": "998a6c6f31c4a702d10551aa421b73db354d088ce1e45750b9b5684c3755ff36"
+    },
+    "6801": {
+      "manifest_sha256": "99ff516521f9a458f6feb1e25dac0eadfe6e56f71dce8b8f323d46981e7705d7",
+      "sample_sha256": "30e3eb38b7c0496e9427cf56a67a20b6fab4e263f3169fb3aa3fd470dac41fb1"
+    }
+  },
+  "no_test_scenes_scored_before_fix": true,
+  "dataset_manifests_and_pickles_unchanged": true
+}

@@ -12,7 +12,7 @@ def get_class(sample):
     return sample.split('\\')[-2]
 
 def UPBFolders(CLASS_NUM):
-    root = "C:\\Users\\Administrator\\Desktop\\code\\dataset\\UPB_bearing_dataset"
+    root = os.getenv("UPB_DATA_ROOT", os.path.join("data", "UPB_bearing_dataset"))
     labels = ['KA01', 'KA03', 'KA05', 'KA07', 'KA08', 'KI01', 'KI03', 'KI07'] \
              + ['K001'] + ['KA04','KA16', 'KB23', 'KB27', 'KI18', 'KI21']
 
@@ -70,7 +70,7 @@ def UPBFolders(CLASS_NUM):
     return metatrain_folders, metatest_folders
 
 def SEUFolders(num_samples_per_class=300):
-    root0 = 'C:\\Users\\Administrator\\Desktop\\code\\dataset\\SEU_gearbox_dataset'
+    root0 = os.getenv("SEU_DATA_ROOT", os.path.join("data", "SEU_gearbox_dataset"))
     root1 = '\\processed_data'
 
     labels = ['ball', 'inner', 'outer', 'comb', 'Chipped', 'Miss', 'Root', 'Surface', 'Health']
@@ -125,7 +125,7 @@ def SEUFolders(num_samples_per_class=300):
     return train_folders
 
 def CWRUFolders(num_samples_per_class=2400):
-    root0 = 'C:\\Users\\Administrator\\Desktop\\code\\dataset\\CWRU_bearing_dataset'
+    root0 = os.getenv("CWRU_DATA_ROOT", os.path.join("data", "CWRU_bearing_dataset"))
     root1 = '\\12k Drive End Bearing Fault Data'
     root2 = '\\Normal Baseline Data'
     labels = ['BF7', 'BF14', 'BF21', 'IF7', 'IF14', 'IF21', 'OF7', 'OF14', 'OF21', 'NC']

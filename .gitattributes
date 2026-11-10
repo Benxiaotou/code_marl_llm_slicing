@@ -1,0 +1,5 @@
+# Portable source checkouts, with byte-exact historical attestation exceptions.
+* text=auto eol=lf
+/research_artifacts/** -text
+/research_artifacts/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/research_artifacts/p2c/*.py -whitespace

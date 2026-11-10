@@ -45,7 +45,7 @@ P1C_README.md               本文件
 
 ```powershell
 conda activate marl
-cd F:\Projects\code_marl_v0_exper_1
+cd path/to/code_marl_llm_slicing
 python -m unittest discover -s tests -p "test_p1c.py" -v
 python p1b_audit.py --library .\p1b_libraries\train_seed2601_v1
 ```

@@ -2110,7 +2110,7 @@ class CustomMultiAgentEnv(RawMultiAgentEnv):
                 paths_list.append(path)
                 k_net_new_shortest_paths[idx_flow] = paths_list
 
-                if k_net_new_shortest_paths[idx_flow] != k_net.shortest_paths_node[idx_flow]:  # 新计算路由与初始路由不同
+                if not np.array_equal(k_net_new_shortest_paths[idx_flow], k_net.shortest_paths_node[idx_flow]):  # 新计算路由与初始路由不同
                     traffic_reroute += eval_tm[s][d]  ##**#
                     flow_reroute += 1  ##**#
                     eval_link_loads = self._ksp_traffic_distribution(k_net, eval_link_loads, eval_tm[s][d], s, d,

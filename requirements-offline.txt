@@ -1,0 +1,5 @@
+# Core dependencies for the offline contracts (Python 3.8).
+numpy==1.22.4
+requests==2.25.1
+PyYAML==6.0.2
+networkx==3.1

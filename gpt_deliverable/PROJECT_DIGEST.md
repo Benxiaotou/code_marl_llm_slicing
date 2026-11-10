@@ -225,7 +225,7 @@ reward_g= contribution_degree[3] * (V_g − 0)/20 * 1.5              # g_done �
 
 ## 10. 常见坑与注意事项(避免后续开发踩坑)
 
-- `configs_main.yaml` 中 `root` 是**硬编码的 Linux 路径**(`/home/ubuntu/...`),换机器必须改; 同理 `utlis/config.py` 里也有 Windows 硬编码。
+- 公开版的工作目录配置已改为相对路径；完整数据与模型仍需另行准备。
 - `max_num_steps=512000`、`running_steps=10M` 非常长, 调试建议先把 `sample_cnt`/步数改小。
 - 环境状态是**有状态的连续过程**(物理网 `allocated_*` 会累加), 复现依赖 `setup_seed(seed)` 与确定性的 `sample_dict` 顺序。
 - `sample_cnt==len(sample_dict)` 有 assert, 若手动增删 pkl 需一致; 每次 `sample_idx` 到 600 会重读 pkl。

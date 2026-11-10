@@ -1,0 +1,1255 @@
+{
+  "status": "COMPLETE",
+  "n_paired_scenes": 1536,
+  "seeds": [
+    6601,
+    6701,
+    6801
+  ],
+  "summaries": {
+    "MAPPO": {
+      "n": 1536,
+      "acceptance_rate": 0.8352864583333334,
+      "cooperative_rate": 0.8151041666666666,
+      "ir_valid_rate": 0.81640625,
+      "V_mean": 341.99409474257214,
+      "V_g_mean": 24.808407190130847,
+      "cost_mean": 33.91017587360398,
+      "V_k1_mean": 105.56443654055295,
+      "V_k2_mean": 106.10888948405845,
+      "V_k3_mean": 105.51236152782991,
+      "accepted_ir_invalid_n": 31,
+      "admitted": 1283,
+      "cooperative": 1252
+    },
+    "kNN_Standard1000": {
+      "n": 1536,
+      "acceptance_rate": 0.8040364583333334,
+      "cooperative_rate": 0.64453125,
+      "ir_valid_rate": 0.6451822916666666,
+      "V_mean": 330.2028094336093,
+      "V_g_mean": 24.04328666470759,
+      "cost_mean": 37.87562191973536,
+      "V_k1_mean": 101.61013653101888,
+      "V_k2_mean": 102.43910424261571,
+      "V_k3_mean": 102.1102819952671,
+      "accepted_ir_invalid_n": 245,
+      "admitted": 1235,
+      "cooperative": 990
+    },
+    "Qwen_ICL_Standard1000": {
+      "n": 1536,
+      "acceptance_rate": 0.8893229166666666,
+      "cooperative_rate": 0.7376302083333334,
+      "ir_valid_rate": 0.7376302083333334,
+      "V_mean": 337.58421899506317,
+      "V_g_mean": 26.40414796351889,
+      "cost_mean": 37.21729730577372,
+      "V_k1_mean": 103.44616260815276,
+      "V_k2_mean": 103.89450479585719,
+      "V_k3_mean": 103.83940362753434,
+      "accepted_ir_invalid_n": 233,
+      "admitted": 1366,
+      "cooperative": 1133
+    },
+    "Qwen_IR_Standard1000": {
+      "n": 1536,
+      "acceptance_rate": 0.8860677083333334,
+      "cooperative_rate": 0.7864583333333334,
+      "ir_valid_rate": 0.7864583333333334,
+      "V_mean": 338.6712020562391,
+      "V_g_mean": 26.327295582091306,
+      "cost_mean": 34.62599146477906,
+      "V_k1_mean": 103.89028782090645,
+      "V_k2_mean": 104.22266017628782,
+      "V_k3_mean": 104.23095847695352,
+      "accepted_ir_invalid_n": 153,
+      "admitted": 1361,
+      "cooperative": 1208
+    },
+    "Qwen_P2A_Standard1000": {
+      "n": 1536,
+      "acceptance_rate": 0.8873697916666666,
+      "cooperative_rate": 0.7760416666666666,
+      "ir_valid_rate": 0.7760416666666666,
+      "V_mean": 339.103541770479,
+      "V_g_mean": 26.461834734593154,
+      "cost_mean": 34.09282235677836,
+      "V_k1_mean": 104.18572166058873,
+      "V_k2_mean": 104.33904252497592,
+      "V_k3_mean": 104.11694285032117,
+      "accepted_ir_invalid_n": 171,
+      "admitted": 1363,
+      "cooperative": 1192
+    },
+    "Qwen_P2A_Base152": {
+      "n": 1536,
+      "acceptance_rate": 0.904296875,
+      "cooperative_rate": 0.7265625,
+      "ir_valid_rate": 0.7265625,
+      "V_mean": 337.2108380180516,
+      "V_g_mean": 26.747413968482963,
+      "cost_mean": 37.20067318288388,
+      "V_k1_mean": 103.07658050149855,
+      "V_k2_mean": 103.64357851472937,
+      "V_k3_mean": 103.74326503334073,
+      "accepted_ir_invalid_n": 273,
+      "admitted": 1389,
+      "cooperative": 1116
+    },
+    "Qwen_P2A_Standard500": {
+      "n": 1536,
+      "acceptance_rate": 0.873046875,
+      "cooperative_rate": 0.7532552083333334,
+      "ir_valid_rate": 0.7532552083333334,
+      "V_mean": 337.18682822174486,
+      "V_g_mean": 26.068137000578616,
+      "cost_mean": 33.405221714690704,
+      "V_k1_mean": 103.50548077690938,
+      "V_k2_mean": 104.03500207599193,
+      "V_k3_mean": 103.578208368265,
+      "accepted_ir_invalid_n": 184,
+      "admitted": 1341,
+      "cooperative": 1157
+    },
+    "Qwen_P2A_Balanced1000": {
+      "n": 1536,
+      "acceptance_rate": 0.8873697916666666,
+      "cooperative_rate": 0.7513020833333334,
+      "ir_valid_rate": 0.7513020833333334,
+      "V_mean": 338.6391429005398,
+      "V_g_mean": 26.311459371767228,
+      "cost_mean": 34.2235937800429,
+      "V_k1_mean": 104.04319952018602,
+      "V_k2_mean": 104.2718480943318,
+      "V_k3_mean": 104.0126359142548,
+      "accepted_ir_invalid_n": 209,
+      "admitted": 1363,
+      "cooperative": 1154
+    },
+    "Frozen_link": {
+      "n": 1536,
+      "acceptance_rate": 0.8873697916666666,
+      "cooperative_rate": 0.8209635416666666,
+      "ir_valid_rate": 0.8209635416666666,
+      "V_mean": 341.4150810847946,
+      "V_g_mean": 26.430442131110198,
+      "cost_mean": 32.70566172221725,
+      "V_k1_mean": 104.83131716511481,
+      "V_k2_mean": 105.26372203996124,
+      "V_k3_mean": 104.88959974860842,
+      "accepted_ir_invalid_n": 102,
+      "admitted": 1363,
+      "cooperative": 1261
+    },
+    "Frozen_link_node": {
+      "n": 1536,
+      "acceptance_rate": 0.935546875,
+      "cooperative_rate": 0.8444010416666666,
+      "ir_valid_rate": 0.8444010416666666,
+      "V_mean": 343.5796166268526,
+      "V_g_mean": 27.495174150149424,
+      "cost_mean": 34.35625155360328,
+      "V_k1_mean": 105.2155450515343,
+      "V_k2_mean": 105.65970888720445,
+      "V_k3_mean": 105.20918853796445,
+      "accepted_ir_invalid_n": 140,
+      "admitted": 1437,
+      "cooperative": 1297
+    }
+  },
+  "per_seed": {
+    "6601": {
+      "MAPPO": {
+        "n": 512,
+        "acceptance_rate": 0.841796875,
+        "cooperative_rate": 0.818359375,
+        "ir_valid_rate": 0.8203125,
+        "V_mean": 343.1760834752246,
+        "V_g_mean": 24.87897699088753,
+        "cost_mean": 34.09157611026227,
+        "V_k1_mean": 105.6782024908882,
+        "V_k2_mean": 106.86470402347865,
+        "V_k3_mean": 105.7541999699702,
+        "accepted_ir_invalid_n": 12,
+        "admitted": 431,
+        "cooperative": 419
+      },
+      "kNN_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.81640625,
+        "cooperative_rate": 0.66015625,
+        "ir_valid_rate": 0.66015625,
+        "V_mean": 332.3667797168281,
+        "V_g_mean": 24.03381694299897,
+        "cost_mean": 37.40974516461271,
+        "V_k1_mean": 102.22618325085953,
+        "V_k2_mean": 103.24549496798511,
+        "V_k3_mean": 102.86128455498451,
+        "accepted_ir_invalid_n": 80,
+        "admitted": 418,
+        "cooperative": 338
+      },
+      "Qwen_ICL_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.892578125,
+        "cooperative_rate": 0.7421875,
+        "ir_valid_rate": 0.7421875,
+        "V_mean": 338.97160337147074,
+        "V_g_mean": 26.36641836870396,
+        "cost_mean": 36.81755134993607,
+        "V_k1_mean": 103.79590291222237,
+        "V_k2_mean": 104.72193291499283,
+        "V_k3_mean": 104.08734917555157,
+        "accepted_ir_invalid_n": 77,
+        "admitted": 457,
+        "cooperative": 380
+      },
+      "Qwen_IR_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.892578125,
+        "cooperative_rate": 0.791015625,
+        "ir_valid_rate": 0.791015625,
+        "V_mean": 339.9761525276383,
+        "V_g_mean": 26.35805109348807,
+        "cost_mean": 34.40486324071165,
+        "V_k1_mean": 104.02460158067672,
+        "V_k2_mean": 105.14577761062563,
+        "V_k3_mean": 104.44772224284789,
+        "accepted_ir_invalid_n": 52,
+        "admitted": 457,
+        "cooperative": 405
+      },
+      "Qwen_P2A_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.892578125,
+        "cooperative_rate": 0.78125,
+        "ir_valid_rate": 0.78125,
+        "V_mean": 340.4184081211924,
+        "V_g_mean": 26.487211289633134,
+        "cost_mean": 34.211808706360955,
+        "V_k1_mean": 104.50365437671609,
+        "V_k2_mean": 105.1270549998298,
+        "V_k3_mean": 104.30048745501338,
+        "accepted_ir_invalid_n": 57,
+        "admitted": 457,
+        "cooperative": 400
+      },
+      "Qwen_P2A_Base152": {
+        "n": 512,
+        "acceptance_rate": 0.912109375,
+        "cooperative_rate": 0.724609375,
+        "ir_valid_rate": 0.724609375,
+        "V_mean": 338.31498367566275,
+        "V_g_mean": 26.79246207375668,
+        "cost_mean": 37.244782440337154,
+        "V_k1_mean": 103.40941472095953,
+        "V_k2_mean": 104.02873672641024,
+        "V_k3_mean": 104.08437015453626,
+        "accepted_ir_invalid_n": 96,
+        "admitted": 467,
+        "cooperative": 371
+      },
+      "Qwen_P2A_Standard500": {
+        "n": 512,
+        "acceptance_rate": 0.89453125,
+        "cooperative_rate": 0.791015625,
+        "ir_valid_rate": 0.791015625,
+        "V_mean": 340.1581199989331,
+        "V_g_mean": 26.469040907886132,
+        "cost_mean": 33.358649426761474,
+        "V_k1_mean": 104.33459941090436,
+        "V_k2_mean": 105.14791671717066,
+        "V_k3_mean": 104.20656296297194,
+        "accepted_ir_invalid_n": 53,
+        "admitted": 458,
+        "cooperative": 405
+      },
+      "Qwen_P2A_Balanced1000": {
+        "n": 512,
+        "acceptance_rate": 0.888671875,
+        "cooperative_rate": 0.75,
+        "ir_valid_rate": 0.75,
+        "V_mean": 339.64300229083926,
+        "V_g_mean": 26.10180703501277,
+        "cost_mean": 34.12441154869369,
+        "V_k1_mean": 104.15140732894322,
+        "V_k2_mean": 105.16929668895835,
+        "V_k3_mean": 104.22049123792496,
+        "accepted_ir_invalid_n": 71,
+        "admitted": 455,
+        "cooperative": 384
+      },
+      "Frozen_link": {
+        "n": 512,
+        "acceptance_rate": 0.892578125,
+        "cooperative_rate": 0.826171875,
+        "ir_valid_rate": 0.826171875,
+        "V_mean": 342.5667519804891,
+        "V_g_mean": 26.4504496105246,
+        "cost_mean": 32.91493455424594,
+        "V_k1_mean": 104.89470249608779,
+        "V_k2_mean": 106.22518402389555,
+        "V_k3_mean": 104.99641584998112,
+        "accepted_ir_invalid_n": 34,
+        "admitted": 457,
+        "cooperative": 423
+      },
+      "Frozen_link_node": {
+        "n": 512,
+        "acceptance_rate": 0.94140625,
+        "cooperative_rate": 0.845703125,
+        "ir_valid_rate": 0.845703125,
+        "V_mean": 344.5632472804717,
+        "V_g_mean": 27.481625329795776,
+        "cost_mean": 34.58985746757301,
+        "V_k1_mean": 105.1803861686171,
+        "V_k2_mean": 106.58844669630192,
+        "V_k3_mean": 105.31278908575695,
+        "accepted_ir_invalid_n": 49,
+        "admitted": 482,
+        "cooperative": 433
+      }
+    },
+    "6701": {
+      "MAPPO": {
+        "n": 512,
+        "acceptance_rate": 0.841796875,
+        "cooperative_rate": 0.826171875,
+        "ir_valid_rate": 0.828125,
+        "V_mean": 343.12850114000463,
+        "V_g_mean": 25.52205305284742,
+        "cost_mean": 33.20248183004753,
+        "V_k1_mean": 105.0108365210682,
+        "V_k2_mean": 106.5369995166741,
+        "V_k3_mean": 106.05861204941493,
+        "accepted_ir_invalid_n": 8,
+        "admitted": 431,
+        "cooperative": 423
+      },
+      "kNN_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.810546875,
+        "cooperative_rate": 0.623046875,
+        "ir_valid_rate": 0.625,
+        "V_mean": 330.7588688749779,
+        "V_g_mean": 24.69078022788412,
+        "cost_mean": 38.26261326896382,
+        "V_k1_mean": 100.60287862091428,
+        "V_k2_mean": 102.89522564594138,
+        "V_k3_mean": 102.56998438023808,
+        "accepted_ir_invalid_n": 96,
+        "admitted": 415,
+        "cooperative": 319
+      },
+      "Qwen_ICL_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.904296875,
+        "cooperative_rate": 0.724609375,
+        "ir_valid_rate": 0.724609375,
+        "V_mean": 338.67982076434663,
+        "V_g_mean": 27.290638199986233,
+        "cost_mean": 37.536185536342686,
+        "V_k1_mean": 102.5747071126313,
+        "V_k2_mean": 104.2953125206956,
+        "V_k3_mean": 104.51916293103349,
+        "accepted_ir_invalid_n": 92,
+        "admitted": 463,
+        "cooperative": 371
+      },
+      "Qwen_IR_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.8828125,
+        "cooperative_rate": 0.775390625,
+        "ir_valid_rate": 0.775390625,
+        "V_mean": 338.7977687400288,
+        "V_g_mean": 26.649865486981227,
+        "cost_mean": 34.56681575804749,
+        "V_k1_mean": 102.9443371978247,
+        "V_k2_mean": 104.47786884802233,
+        "V_k3_mean": 104.72569720720057,
+        "accepted_ir_invalid_n": 55,
+        "admitted": 452,
+        "cooperative": 397
+      },
+      "Qwen_P2A_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.8828125,
+        "cooperative_rate": 0.7578125,
+        "ir_valid_rate": 0.7578125,
+        "V_mean": 339.1322519605928,
+        "V_g_mean": 26.896122123123995,
+        "cost_mean": 33.680558742250945,
+        "V_k1_mean": 103.21833858082636,
+        "V_k2_mean": 104.53577691326927,
+        "V_k3_mean": 104.48201434337315,
+        "accepted_ir_invalid_n": 64,
+        "admitted": 452,
+        "cooperative": 388
+      },
+      "Qwen_P2A_Base152": {
+        "n": 512,
+        "acceptance_rate": 0.8984375,
+        "cooperative_rate": 0.70703125,
+        "ir_valid_rate": 0.70703125,
+        "V_mean": 337.2162182314984,
+        "V_g_mean": 27.177988171286653,
+        "cost_mean": 36.97914817841955,
+        "V_k1_mean": 102.06453317674834,
+        "V_k2_mean": 103.86724725951751,
+        "V_k3_mean": 104.10644962394585,
+        "accepted_ir_invalid_n": 98,
+        "admitted": 460,
+        "cooperative": 362
+      },
+      "Qwen_P2A_Standard500": {
+        "n": 512,
+        "acceptance_rate": 0.869140625,
+        "cooperative_rate": 0.734375,
+        "ir_valid_rate": 0.734375,
+        "V_mean": 337.02646679094175,
+        "V_g_mean": 26.476610366375095,
+        "cost_mean": 32.94760414492377,
+        "V_k1_mean": 102.40333885544041,
+        "V_k2_mean": 104.09785679635068,
+        "V_k3_mean": 104.04866077277556,
+        "accepted_ir_invalid_n": 69,
+        "admitted": 445,
+        "cooperative": 376
+      },
+      "Qwen_P2A_Balanced1000": {
+        "n": 512,
+        "acceptance_rate": 0.876953125,
+        "cooperative_rate": 0.72265625,
+        "ir_valid_rate": 0.72265625,
+        "V_mean": 337.7669953013077,
+        "V_g_mean": 26.561312926339124,
+        "cost_mean": 34.07926271093204,
+        "V_k1_mean": 103.03165535115937,
+        "V_k2_mean": 104.15056264229713,
+        "V_k3_mean": 104.0234643815121,
+        "accepted_ir_invalid_n": 79,
+        "admitted": 449,
+        "cooperative": 370
+      },
+      "Frozen_link": {
+        "n": 512,
+        "acceptance_rate": 0.8828125,
+        "cooperative_rate": 0.81640625,
+        "ir_valid_rate": 0.81640625,
+        "V_mean": 341.41672480735616,
+        "V_g_mean": 26.869481877479792,
+        "cost_mean": 32.09186691795436,
+        "V_k1_mean": 103.88795791859107,
+        "V_k2_mean": 105.34415237151288,
+        "V_k3_mean": 105.31513263977243,
+        "accepted_ir_invalid_n": 34,
+        "admitted": 452,
+        "cooperative": 418
+      },
+      "Frozen_link_node": {
+        "n": 512,
+        "acceptance_rate": 0.931640625,
+        "cooperative_rate": 0.841796875,
+        "ir_valid_rate": 0.841796875,
+        "V_mean": 343.69760564466145,
+        "V_g_mean": 27.949306497072172,
+        "cost_mean": 33.70445501114354,
+        "V_k1_mean": 104.26055418518254,
+        "V_k2_mean": 105.8096310468076,
+        "V_k3_mean": 105.6781139155991,
+        "accepted_ir_invalid_n": 46,
+        "admitted": 477,
+        "cooperative": 431
+      }
+    },
+    "6801": {
+      "MAPPO": {
+        "n": 512,
+        "acceptance_rate": 0.822265625,
+        "cooperative_rate": 0.80078125,
+        "ir_valid_rate": 0.80078125,
+        "V_mean": 339.67769961248723,
+        "V_g_mean": 24.02419152665759,
+        "cost_mean": 34.43646968050216,
+        "V_k1_mean": 106.00427060970242,
+        "V_k2_mean": 104.92496491202262,
+        "V_k3_mean": 104.72427256410461,
+        "accepted_ir_invalid_n": 11,
+        "admitted": 421,
+        "cooperative": 410
+      },
+      "kNN_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.78515625,
+        "cooperative_rate": 0.650390625,
+        "ir_valid_rate": 0.650390625,
+        "V_mean": 327.4827797090219,
+        "V_g_mean": 23.40526282323969,
+        "cost_mean": 37.95450732562954,
+        "V_k1_mean": 102.0013477212828,
+        "V_k2_mean": 101.1765921139207,
+        "V_k3_mean": 100.89957705057873,
+        "accepted_ir_invalid_n": 69,
+        "admitted": 402,
+        "cooperative": 333
+      },
+      "Qwen_ICL_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.87109375,
+        "cooperative_rate": 0.74609375,
+        "ir_valid_rate": 0.74609375,
+        "V_mean": 335.1012328493722,
+        "V_g_mean": 25.555387321866487,
+        "cost_mean": 37.29815503104239,
+        "V_k1_mean": 103.96787779960465,
+        "V_k2_mean": 102.66626895188307,
+        "V_k3_mean": 102.91169877601797,
+        "accepted_ir_invalid_n": 64,
+        "admitted": 446,
+        "cooperative": 382
+      },
+      "Qwen_IR_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.8828125,
+        "cooperative_rate": 0.79296875,
+        "ir_valid_rate": 0.79296875,
+        "V_mean": 337.2396849010503,
+        "V_g_mean": 25.97397016580462,
+        "cost_mean": 34.906295395578056,
+        "V_k1_mean": 104.701924684218,
+        "V_k2_mean": 103.04433407021551,
+        "V_k3_mean": 103.51945598081215,
+        "accepted_ir_invalid_n": 46,
+        "admitted": 452,
+        "cooperative": 406
+      },
+      "Qwen_P2A_Standard1000": {
+        "n": 512,
+        "acceptance_rate": 0.88671875,
+        "cooperative_rate": 0.7890625,
+        "ir_valid_rate": 0.7890625,
+        "V_mean": 337.7599652296518,
+        "V_g_mean": 26.002170791022344,
+        "cost_mean": 34.38609962172319,
+        "V_k1_mean": 104.83517202422374,
+        "V_k2_mean": 103.35429566182873,
+        "V_k3_mean": 103.56832675257698,
+        "accepted_ir_invalid_n": 50,
+        "admitted": 454,
+        "cooperative": 404
+      },
+      "Qwen_P2A_Base152": {
+        "n": 512,
+        "acceptance_rate": 0.90234375,
+        "cooperative_rate": 0.748046875,
+        "ir_valid_rate": 0.748046875,
+        "V_mean": 336.1013121469938,
+        "V_g_mean": 26.271791660405558,
+        "cost_mean": 37.378088929894936,
+        "V_k1_mean": 103.75579360678782,
+        "V_k2_mean": 103.03475155826037,
+        "V_k3_mean": 103.03897532154008,
+        "accepted_ir_invalid_n": 79,
+        "admitted": 462,
+        "cooperative": 383
+      },
+      "Qwen_P2A_Standard500": {
+        "n": 512,
+        "acceptance_rate": 0.85546875,
+        "cooperative_rate": 0.734375,
+        "ir_valid_rate": 0.734375,
+        "V_mean": 334.3758978753599,
+        "V_g_mean": 25.258759727474615,
+        "cost_mean": 33.90941157238687,
+        "V_k1_mean": 103.77850406438336,
+        "V_k2_mean": 102.85923271445438,
+        "V_k3_mean": 102.47940136904748,
+        "accepted_ir_invalid_n": 62,
+        "admitted": 438,
+        "cooperative": 376
+      },
+      "Qwen_P2A_Balanced1000": {
+        "n": 512,
+        "acceptance_rate": 0.896484375,
+        "cooperative_rate": 0.78125,
+        "ir_valid_rate": 0.78125,
+        "V_mean": 338.50743110947246,
+        "V_g_mean": 26.2712581539498,
+        "cost_mean": 34.46710708050297,
+        "V_k1_mean": 104.94653588045546,
+        "V_k2_mean": 103.49568495173989,
+        "V_k3_mean": 103.79395212332734,
+        "accepted_ir_invalid_n": 59,
+        "admitted": 459,
+        "cooperative": 400
+      },
+      "Frozen_link": {
+        "n": 512,
+        "acceptance_rate": 0.88671875,
+        "cooperative_rate": 0.8203125,
+        "ir_valid_rate": 0.8203125,
+        "V_mean": 340.26176646653875,
+        "V_g_mean": 25.971394905326186,
+        "cost_mean": 33.110183694451436,
+        "V_k1_mean": 105.71129108066557,
+        "V_k2_mean": 104.22182972447528,
+        "V_k3_mean": 104.35725075607172,
+        "accepted_ir_invalid_n": 34,
+        "admitted": 454,
+        "cooperative": 420
+      },
+      "Frozen_link_node": {
+        "n": 512,
+        "acceptance_rate": 0.93359375,
+        "cooperative_rate": 0.845703125,
+        "ir_valid_rate": 0.845703125,
+        "V_mean": 342.47799695542477,
+        "V_g_mean": 27.054590623580317,
+        "cost_mean": 34.77444218209328,
+        "V_k1_mean": 106.20569480080323,
+        "V_k2_mean": 104.58104891850388,
+        "V_k3_mean": 104.63666261253735,
+        "accepted_ir_invalid_n": 45,
+        "admitted": 478,
+        "cooperative": 433
+      }
+    }
+  },
+  "comparisons": {
+    "MAPPO": {
+      "V": {
+        "mean_delta": 1.5855218842804952,
+        "paired_seed_stratified_CI95": [
+          0.11839095226598882,
+          3.139406095578543
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": 0.4460756799992937,
+        "paired_seed_stratified_CI95": [
+          0.12151143807783386,
+          0.7701916735372499
+        ]
+      },
+      "V_g": {
+        "mean_delta": 2.686766960018579,
+        "paired_seed_stratified_CI95": [
+          2.1665894911118104,
+          3.213552485015553
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.10026041666666667,
+        "paired_seed_stratified_CI95": [
+          0.08203125,
+          0.119140625
+        ],
+        "wins": 186,
+        "losses": 32
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.029296875,
+        "paired_seed_stratified_CI95": [
+          0.008463541666666666,
+          0.05078125
+        ],
+        "wins": 159,
+        "losses": 114
+      }
+    },
+    "kNN_Standard1000": {
+      "V": {
+        "mean_delta": 13.376807193243346,
+        "paired_seed_stratified_CI95": [
+          11.826176342335279,
+          14.998409392038324
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": -3.5193703661320797,
+        "paired_seed_stratified_CI95": [
+          -4.117226409703364,
+          -2.9402645862447976
+        ]
+      },
+      "V_g": {
+        "mean_delta": 3.4518874854418313,
+        "paired_seed_stratified_CI95": [
+          2.9331651875261753,
+          3.9904282621785243
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.13151041666666666,
+        "paired_seed_stratified_CI95": [
+          0.11393229166666667,
+          0.14973958333333334
+        ],
+        "wins": 214,
+        "losses": 12
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.19986979166666666,
+        "paired_seed_stratified_CI95": [
+          0.17643229166666666,
+          0.224609375
+        ],
+        "wins": 366,
+        "losses": 59
+      }
+    },
+    "Qwen_ICL_Standard1000": {
+      "V": {
+        "mean_delta": 5.995397631789455,
+        "paired_seed_stratified_CI95": [
+          4.818546394418748,
+          7.192104701398354
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": -2.8610457521704427,
+        "paired_seed_stratified_CI95": [
+          -3.2870546252318342,
+          -2.4388871872025173
+        ]
+      },
+      "V_g": {
+        "mean_delta": 1.091026186630531,
+        "paired_seed_stratified_CI95": [
+          0.7143326333499678,
+          1.4725608888857453
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.046223958333333336,
+        "paired_seed_stratified_CI95": [
+          0.033203125,
+          0.059244791666666664
+        ],
+        "wins": 89,
+        "losses": 18
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.10677083333333333,
+        "paired_seed_stratified_CI95": [
+          0.08658854166666667,
+          0.126953125
+        ],
+        "wins": 222,
+        "losses": 58
+      }
+    },
+    "Qwen_IR_Standard1000": {
+      "V": {
+        "mean_delta": 4.908414570613513,
+        "paired_seed_stratified_CI95": [
+          3.7750909508258736,
+          6.087450853632419
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": -0.26973991117578716,
+        "paired_seed_stratified_CI95": [
+          -0.6142514325677362,
+          0.06718814605053812
+        ]
+      },
+      "V_g": {
+        "mean_delta": 1.1678785680581203,
+        "paired_seed_stratified_CI95": [
+          0.7917245681390443,
+          1.558213187401748
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.049479166666666664,
+        "paired_seed_stratified_CI95": [
+          0.036458333333333336,
+          0.0625
+        ],
+        "wins": 91,
+        "losses": 15
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.057942708333333336,
+        "paired_seed_stratified_CI95": [
+          0.0390625,
+          0.076171875
+        ],
+        "wins": 155,
+        "losses": 66
+      }
+    },
+    "Qwen_P2A_Standard1000": {
+      "V": {
+        "mean_delta": 4.476074856373653,
+        "paired_seed_stratified_CI95": [
+          3.532202255571886,
+          5.469169957539826
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": 0.2634291968249123,
+        "paired_seed_stratified_CI95": [
+          -0.02504634053174144,
+          0.5395393641852917
+        ]
+      },
+      "V_g": {
+        "mean_delta": 1.0333394155562676,
+        "paired_seed_stratified_CI95": [
+          0.7610658671765675,
+          1.316852668048057
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.048177083333333336,
+        "paired_seed_stratified_CI95": [
+          0.037760416666666664,
+          0.059244791666666664
+        ],
+        "wins": 74,
+        "losses": 0
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.068359375,
+        "paired_seed_stratified_CI95": [
+          0.051432291666666664,
+          0.0859375
+        ],
+        "wins": 151,
+        "losses": 46
+      }
+    },
+    "Qwen_P2A_Base152": {
+      "V": {
+        "mean_delta": 6.368778608801008,
+        "paired_seed_stratified_CI95": [
+          5.147801935915188,
+          7.594355416247046
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": -2.844421629280605,
+        "paired_seed_stratified_CI95": [
+          -3.3261030583297266,
+          -2.3761196960967017
+        ]
+      },
+      "V_g": {
+        "mean_delta": 0.7477601816664595,
+        "paired_seed_stratified_CI95": [
+          0.3463749625170986,
+          1.1709574976507915
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.03125,
+        "paired_seed_stratified_CI95": [
+          0.017578125,
+          0.045572916666666664
+        ],
+        "wins": 83,
+        "losses": 35
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.11783854166666667,
+        "paired_seed_stratified_CI95": [
+          0.095703125,
+          0.140625
+        ],
+        "wins": 256,
+        "losses": 75
+      }
+    },
+    "Qwen_P2A_Standard500": {
+      "V": {
+        "mean_delta": 6.392788405107744,
+        "paired_seed_stratified_CI95": [
+          5.100174089658117,
+          7.710043212072642
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": 0.9510298389125698,
+        "paired_seed_stratified_CI95": [
+          0.5409389101751075,
+          1.3528448498129044
+        ]
+      },
+      "V_g": {
+        "mean_delta": 1.4270371495708112,
+        "paired_seed_stratified_CI95": [
+          1.0014047237254864,
+          1.865371897255946
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.0625,
+        "paired_seed_stratified_CI95": [
+          0.048177083333333336,
+          0.07747395833333333
+        ],
+        "wins": 115,
+        "losses": 19
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.09114583333333333,
+        "paired_seed_stratified_CI95": [
+          0.07096354166666667,
+          0.11197916666666667
+        ],
+        "wins": 207,
+        "losses": 67
+      }
+    },
+    "Qwen_P2A_Balanced1000": {
+      "V": {
+        "mean_delta": 4.940473726312805,
+        "paired_seed_stratified_CI95": [
+          3.8498657845140056,
+          6.0631631186255115
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": 0.13265777356037636,
+        "paired_seed_stratified_CI95": [
+          -0.2191178022716832,
+          0.4736334811306863
+        ]
+      },
+      "V_g": {
+        "mean_delta": 1.1837147783821942,
+        "paired_seed_stratified_CI95": [
+          0.8394655602767402,
+          1.5378699691644377
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.048177083333333336,
+        "paired_seed_stratified_CI95": [
+          0.035807291666666664,
+          0.060546875
+        ],
+        "wins": 87,
+        "losses": 13
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.09309895833333333,
+        "paired_seed_stratified_CI95": [
+          0.07356770833333333,
+          0.11263020833333333
+        ],
+        "wins": 195,
+        "losses": 52
+      }
+    },
+    "Frozen_link": {
+      "V": {
+        "mean_delta": 2.1645355420579775,
+        "paired_seed_stratified_CI95": [
+          1.2383211063253567,
+          3.1333212505654373
+        ]
+      },
+      "cost_sum": {
+        "mean_delta": 1.6505898313860305,
+        "paired_seed_stratified_CI95": [
+          1.6176840718313457,
+          1.6837051966983347
+        ]
+      },
+      "V_g": {
+        "mean_delta": 1.0647320190392306,
+        "paired_seed_stratified_CI95": [
+          0.7934635049135509,
+          1.3499848015126976
+        ]
+      },
+      "g_done": {
+        "mean_delta": 0.048177083333333336,
+        "paired_seed_stratified_CI95": [
+          0.037760416666666664,
+          0.059244791666666664
+        ],
+        "wins": 74,
+        "losses": 0
+      },
+      "cooperative_valid": {
+        "mean_delta": 0.0234375,
+        "paired_seed_stratified_CI95": [
+          0.011067708333333334,
+          0.036458333333333336
+        ],
+        "wins": 68,
+        "losses": 32
+      }
+    }
+  },
+  "per_seed_comparisons": {
+    "6601": {
+      "MAPPO": {
+        "V": {
+          "mean_delta": 1.3871638052471724,
+          "paired_seed_stratified_CI95": [
+            -1.022594789109958,
+            3.881507639626816
+          ]
+        },
+        "cost_sum": {
+          "mean_delta": 0.4982813573107421,
+          "paired_seed_stratified_CI95": [
+            -0.05237993689782091,
+            1.0541125890438403
+          ]
+        },
+        "V_g": {
+          "mean_delta": 2.602648338908251,
+          "paired_seed_stratified_CI95": [
+            1.8075090085957757,
+            3.428616867396071
+          ]
+        },
+        "g_done": {
+          "mean_delta": 0.099609375,
+          "paired_seed_stratified_CI95": [
+            0.0703125,
+            0.130859375
+          ],
+          "wins": 61,
+          "losses": 10
+        },
+        "cooperative_valid": {
+          "mean_delta": 0.02734375,
+          "paired_seed_stratified_CI95": [
+            -0.009765625,
+            0.064453125
+          ],
+          "wins": 54,
+          "losses": 40
+        }
+      },
+      "Frozen_link": {
+        "V": {
+          "mean_delta": 1.996495299982668,
+          "paired_seed_stratified_CI95": [
+            0.48471390983075907,
+            3.640098660561547
+          ]
+        },
+        "cost_sum": {
+          "mean_delta": 1.6749229133270709,
+          "paired_seed_stratified_CI95": [
+            1.617404290103696,
+            1.7344530669403577
+          ]
+        },
+        "V_g": {
+          "mean_delta": 1.0311757192711761,
+          "paired_seed_stratified_CI95": [
+            0.5788975295319332,
+            1.513695125830127
+          ]
+        },
+        "g_done": {
+          "mean_delta": 0.048828125,
+          "paired_seed_stratified_CI95": [
+            0.03125,
+            0.068359375
+          ],
+          "wins": 25,
+          "losses": 0
+        },
+        "cooperative_valid": {
+          "mean_delta": 0.01953125,
+          "paired_seed_stratified_CI95": [
+            -0.001953125,
+            0.041015625
+          ],
+          "wins": 21,
+          "losses": 11
+        }
+      }
+    },
+    "6701": {
+      "MAPPO": {
+        "V": {
+          "mean_delta": 0.5691045046567745,
+          "paired_seed_stratified_CI95": [
+            -1.725810523767901,
+            2.892394197452217
+          ]
+        },
+        "cost_sum": {
+          "mean_delta": 0.5019731810960152,
+          "paired_seed_stratified_CI95": [
+            -0.03918926459220306,
+            1.0439448149896597
+          ]
+        },
+        "V_g": {
+          "mean_delta": 2.427253444224757,
+          "paired_seed_stratified_CI95": [
+            1.6028543719650545,
+            3.2812213555566148
+          ]
+        },
+        "g_done": {
+          "mean_delta": 0.08984375,
+          "paired_seed_stratified_CI95": [
+            0.060546875,
+            0.119140625
+          ],
+          "wins": 54,
+          "losses": 8
+        },
+        "cooperative_valid": {
+          "mean_delta": 0.015625,
+          "paired_seed_stratified_CI95": [
+            -0.015625,
+            0.048828125
+          ],
+          "wins": 40,
+          "losses": 32
+        }
+      },
+      "Frozen_link": {
+        "V": {
+          "mean_delta": 2.2808808373052596,
+          "paired_seed_stratified_CI95": [
+            0.6904499503144592,
+            4.023513750725559
+          ]
+        },
+        "cost_sum": {
+          "mean_delta": 1.6125880931891834,
+          "paired_seed_stratified_CI95": [
+            1.5565604023881592,
+            1.6663066513889944
+          ]
+        },
+        "V_g": {
+          "mean_delta": 1.0798246195923817,
+          "paired_seed_stratified_CI95": [
+            0.6141466309869837,
+            1.5929215592575006
+          ]
+        },
+        "g_done": {
+          "mean_delta": 0.048828125,
+          "paired_seed_stratified_CI95": [
+            0.03125,
+            0.068359375
+          ],
+          "wins": 25,
+          "losses": 0
+        },
+        "cooperative_valid": {
+          "mean_delta": 0.025390625,
+          "paired_seed_stratified_CI95": [
+            0.00390625,
+            0.048828125
+          ],
+          "wins": 24,
+          "losses": 11
+        }
+      }
+    },
+    "6801": {
+      "MAPPO": {
+        "V": {
+          "mean_delta": 2.800297342937539,
+          "paired_seed_stratified_CI95": [
+            -0.14869180333760132,
+            5.727060796401892
+          ]
+        },
+        "cost_sum": {
+          "mean_delta": 0.3379725015911239,
+          "paired_seed_stratified_CI95": [
+            -0.22782461641442656,
+            0.8975601084218856
+          ]
+        },
+        "V_g": {
+          "mean_delta": 3.0303990969227295,
+          "paired_seed_stratified_CI95": [
+            1.9959702835941804,
+            4.0703182545525625
+          ]
+        },
+        "g_done": {
+          "mean_delta": 0.111328125,
+          "paired_seed_stratified_CI95": [
+            0.078125,
+            0.14453125
+          ],
+          "wins": 71,
+          "losses": 14
+        },
+        "cooperative_valid": {
+          "mean_delta": 0.044921875,
+          "paired_seed_stratified_CI95": [
+            0.005859375,
+            0.083984375
+          ],
+          "wins": 65,
+          "losses": 42
+        }
+      },
+      "Frozen_link": {
+        "V": {
+          "mean_delta": 2.216230488886004,
+          "paired_seed_stratified_CI95": [
+            0.6010954296472346,
+            4.0084614130965885
+          ]
+        },
+        "cost_sum": {
+          "mean_delta": 1.6642584876418374,
+          "paired_seed_stratified_CI95": [
+            1.6078214860087439,
+            1.7207242947477408
+          ]
+        },
+        "V_g": {
+          "mean_delta": 1.0831957182541334,
+          "paired_seed_stratified_CI95": [
+            0.6084210502240941,
+            1.6060919542820813
+          ]
+        },
+        "g_done": {
+          "mean_delta": 0.046875,
+          "paired_seed_stratified_CI95": [
+            0.029296875,
+            0.06640625
+          ],
+          "wins": 24,
+          "losses": 0
+        },
+        "cooperative_valid": {
+          "mean_delta": 0.025390625,
+          "paired_seed_stratified_CI95": [
+            0.00390625,
+            0.046875
+          ],
+          "wins": 23,
+          "losses": 10
+        }
+      }
+    }
+  },
+  "controls_reproduced": 4608,
+  "post_controls": 12,
+  "new_policy_scores": 1536,
+  "total_scores": 6144,
+  "archived_method_metric_rows": 12288,
+  "API_calls": 0,
+  "estimated_API_cost_usd": 0,
+  "source_and_dataset_hashes_unchanged": true,
+  "test_previously_inspected": true,
+  "parameters_changed": false,
+  "new_inference": false
+}
